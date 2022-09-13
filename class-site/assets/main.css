@@ -10,4 +10,12 @@ body {
   font-family: courier;
   margin-top: 0;
   margin-bottom: 0;
+  text-orientation: sideways;
+  background-image: url('imgs/bounce-ball.gif');
+  background-size:100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height:100%;
+  width:100%;
+
 }
