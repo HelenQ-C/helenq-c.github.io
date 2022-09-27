@@ -21,13 +21,29 @@ transition: all 0.7s ease;
 }
 
 .tag2 {
-transition: all 0.7s ease;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  transition: all 0.7s ease;
 }
 
 .tag2:hover {
   -webkit-transform: rotate(-8deg);
   transform-origin: top center;
   transform: rotate(-8deg);
+  cursor: pointer;
+}
+
+.tag3 {
+  -webkit-transform: rotate(-8deg);
+  transform-origin: top center;
+  transform: rotate(-8deg);
+  transition: all 0.7s ease;
+}
+
+.tag3:hover {
+  -webkit-transform: rotate(-27deg);
+  transform-origin: top center;
+  transform: rotate(-27deg);
   cursor: pointer;
 }
 
@@ -38,16 +54,5 @@ transition: all 0.7s ease;
 
 .imgfilters1 :hover {
   filter: none;
-  cursor: pointer;
-}
-
-.tag3 {
-transition: all 0.7s ease;
-}
-
-.tag3:hover {
-  -webkit-transform: rotate(-27deg);
-  transform-origin: top center;
-  transform: rotate(-27deg);
   cursor: pointer;
 }
