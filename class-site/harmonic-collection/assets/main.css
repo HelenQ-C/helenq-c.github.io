@@ -1,5 +1,53 @@
+body {
+  background-color: black;
+}
 
 h3 {
   font-size: 12pt;
   font-family: courier;
+}
+
+
+.tag1 {
+transform: rotate(2deg);
+transition: all 0.7s ease;
+}
+
+.tag1:hover {
+  -webkit-transform: rotate(20deg);
+  transform-origin: top center;
+  transform: rotate(20deg);
+  cursor: pointer;
+}
+
+.tag2 {
+transition: all 0.7s ease;
+}
+
+.tag2:hover {
+  -webkit-transform: rotate(-8deg);
+  transform-origin: top center;
+  transform: rotate(-8deg);
+  cursor: pointer;
+}
+
+.imgfilters1 {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.imgfilters1 :hover {
+  filter: none;
+  cursor: pointer;
+}
+
+.tag3 {
+transition: all 0.7s ease;
+}
+
+.tag3:hover {
+  -webkit-transform: rotate(-27deg);
+  transform-origin: top center;
+  transform: rotate(-27deg);
+  cursor: pointer;
 }
