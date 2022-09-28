@@ -1,16 +1,49 @@
 body {
   background-color: black;
+  font-family: 'Noto Sans TC', sans-serif;
 }
 
-h3 {
-  font-size: 12pt;
-  font-family: courier;
+h1 {
+  font-size: 200px;
+  font-weight: 900;
+  text-transform: uppercase;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  color: white;
+  position: absolute;
+  top: 200px;
+  right: 600px;
+
+}
+h3.line1 {
+  font-size: 8pt;
+  font-family: 'Courier Prime', monospace;
+  weight: 400;
+  color: white;
+  align: right;
+  position: absolute;
+  right:30px;
+  top:15px;
+
+}
+
+h3.line2 {
+  font-size: 8pt;
+  font-family: 'Courier Prime', monospace;
+  weight: 400;
+  color: white;
+  align: right;
+  position: absolute;
+  right:30px;
 }
 
 
 .tag1 {
 transform: rotate(2deg);
 transition: all 0.7s ease;
+position: absolute;
+top: 198px;
+left: 240px;
 }
 
 .tag1:hover {
@@ -21,11 +54,16 @@ transition: all 0.7s ease;
 }
 
 .tag2 {
+  position: absolute;
+  right
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
   transition: all 0.7s ease;
   filter: none;
   cursor: pointer;
+  position: absolute;
+  top: 215px;
+  left: 250px;
 }
 
 .tag2:hover {
@@ -42,6 +80,9 @@ transition: all 0.7s ease;
   transform-origin: top center;
   transform: rotate(-8deg);
   transition: all 0.7s ease;
+  position: absolute;
+  top: 175px;
+  left: 270px;
 }
 
 .tag3:hover {
@@ -63,4 +104,18 @@ transition: all 0.7s ease;
 
 .overflow-y-hidden {
   overflow-y: hidden
+}
+
+.pop-up {
+  position: absolute;
+  top: 400px;
+  left: 450px;
+  opacity: 0.0;
+}
+
+.pop-up:hover {
+  position: absolute;
+  top: 240px;
+  left: 450px;
+  opacity: 1.0;
 }
