@@ -1,0 +1,620 @@
+
+
+body {
+font-family: 'Inter', sans-serif;
+font-family: 'Inter Tight', sans-serif;
+background-color: #000000;
+
+position: relative;
+width: 1280px;
+height: 6000px;
+}
+
+/* 1400 - 1600 A.D. European Fashion in Arts */
+
+h1.title {
+  position: absolute;
+  width: 1125px;
+  height: 414px;
+  left: 52px;
+  top: 0px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 155px;
+  background-color: #000000;
+  color: #FFFFFF;
+  border: 1px solid #000000;
+}
+
+
+/* Info 1 */
+
+/* img group 1 */
+
+.img6-1 {
+  position: absolute;
+  width: 781px;
+  height: 1050px;
+  left: 52px;
+  top: 850px;
+  display: inline-block;
+}
+
+.img6-1 img {
+  width: 100%;
+  height: auto;
+}
+
+.img6-1 .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.img6-1:hover .img-top {
+    display: inline;
+    cursor: pointer;
+}
+
+/* Lady with an Ermine (ca. 1490) Leonardo da Vinci */
+
+p.p01 {
+  position: absolute;
+  width: 300px;
+  height: 475px;
+  left: 875px;
+  top: 760px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 97px;
+
+  color: #FFFFFF;
+}
+
+p.p02 {
+  position: absolute;
+  width: 300px;
+  height: 87px;
+  left: 875px;
+  top: 1765px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #FFFFFF;
+}
+
+
+
+/* Details: */
+
+p.details {
+  position: absolute;
+  width: 173px;
+  height: 25px;
+  left: 52px;
+  top: 1940px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #FFFFFF;
+}
+
+
+
+/* + */
+
+p.symbol1 {
+  position: absolute;
+  width: 67px;
+  height: 59px;
+  left: 350px;
+  top: 1910px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 54px;
+
+  color: #FFFFFF;
+  transition: 0.8s;
+}
+
+.hiddenimg01 {
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  left: 354px;
+  top: 1973px;
+  opacity: 0.0;
+}
+
+.hiddenimg01:hover {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  left: 240px;
+  top: 2050px;
+  opacity: 1.0
+}
+
+
+
+/* + */
+
+p.symbol2 {
+  position: absolute;
+  width: 67px;
+  height: 59px;
+  left: 540px;
+  top: 1910px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 54px;
+
+  color: #FFFFFF;
+}
+
+.hiddenimg02 {
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  left: 544px;
+  top: 1973px;
+  opacity: 0.0;
+}
+
+.hiddenimg02:hover {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  left: 430px;
+  top: 2050px;
+  opacity: 1.0
+}
+
+
+/* + */
+
+p.symbol3 {
+  position: absolute;
+  width: 67px;
+  height: 59px;
+  left: 730px;
+  top: 1910px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 54px;
+
+  color: #FFFFFF;
+}
+
+.hiddenimg03 {
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  left: 734px;
+  top: 1973px;
+  opacity: 0.0;
+}
+
+.hiddenimg03:hover {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  left: 620px;
+  top: 2050px;
+  opacity: 1.0
+}
+
+
+/* img group 2 */
+
+.img2-1 {
+  position: absolute;
+  width: 780px;
+  height: 1140px;
+  left: 53px;
+  top: 2594px;
+  display: inline-block;
+}
+
+.img2-1 img {
+  width: 100%;
+  height: auto;
+}
+
+.img2-1 .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.img2-1:hover .img-top {
+    display: inline;
+    cursor: pointer;
+}
+
+
+/* Portrait of a Woman */
+
+p.p03 {
+position: absolute;
+width: 300px;
+height: 586px;
+left: 874px;
+top: 2504px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 97px;
+
+color: #FFFFFF;
+}
+
+/* Bernardino Campi */
+
+p.p04 {
+  position: absolute;
+width: 300px;
+height: 87px;
+left: 874px;
+top: 3600px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+}
+
+
+/* Details: */
+
+p.details2 {
+position: absolute;
+width: 173px;
+height: 25px;
+left: 52px;
+top: 3775px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+
+color: #FFFFFF;
+}
+
+
+/* + */
+
+.symbol4 {
+position: absolute;
+width: 67px;
+height: 59px;
+left: 350px;
+top: 3745px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 54px;
+
+color: #FFFFFF;
+}
+
+.hiddenimg04 {
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  left: 354px;
+  top: 3808px;
+  opacity: 0.0;
+}
+
+.hiddenimg04:hover {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  left: 240px;
+  top: 3885px;
+  opacity: 1.0
+}
+
+
+/* + */
+
+.symbol5 {
+position: absolute;
+width: 67px;
+height: 59px;
+left: 540px;
+top: 3745px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 54px;
+
+color: #FFFFFF;
+}
+
+.hiddenimg05 {
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  left: 544px;
+  top: 3808px;
+  opacity: 0.0;
+}
+
+.hiddenimg05:hover {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  left: 430px;
+  top: 3885px;
+  opacity: 1.0
+}
+
+
+/* + */
+
+.symbol6 {
+position: absolute;
+width: 67px;
+height: 59px;
+left: 730px;
+top: 3745px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 54px;
+
+color: #FFFFFF;
+}
+
+.hiddenimg06 {
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  left: 734px;
+  top: 3808px;
+  opacity: 0.0;
+}
+
+.hiddenimg06:hover {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  left: 620px;
+  top: 3885px;
+  opacity: 1.0
+}
+
+/* img group 3 */
+
+.img1-1 {
+  position: absolute;
+  width: 781px;
+  height: 1050px;
+  left: 52px;
+  top: 4429px;
+  display: inline-block;
+}
+
+.img1-1 img {
+  width: 100%;
+  height: auto;
+}
+
+.img1-1 .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.img1-1:hover .img-top {
+    display: inline;
+    cursor: pointer;
+}
+
+/* La Donna Velata */
+
+p.p05 {
+position: absolute;
+width: 300px;
+height: 586px;
+left: 874px;
+top: 4339px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 97px;
+
+color: #FFFFFF;
+}
+
+/* Raffaello Sanzio da Urbino */
+
+p.p06 {
+  position: absolute;
+width: 300px;
+height: 87px;
+left: 874px;
+top: 5250px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+}
+
+/* Details: */
+
+p.details3 {
+position: absolute;
+width: 173px;
+height: 25px;
+left: 52px;
+top: 5476px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+
+color: #FFFFFF;
+}
+
+
+/* + */
+
+.symbol7 {
+position: absolute;
+width: 67px;
+height: 59px;
+left: 350px;
+top: 5446px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 54px;
+
+color: #FFFFFF;
+}
+
+.hiddenimg07 {
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  left: 354px;
+  top: 5509px;
+  opacity: 0.0;
+}
+
+.hiddenimg07:hover {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  left: 240px;
+  top: 5586px;
+  opacity: 1.0
+}
+
+
+/* + */
+
+.symbol8 {
+position: absolute;
+width: 67px;
+height: 59px;
+left: 540px;
+top: 5446px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 54px;
+
+color: #FFFFFF;
+}
+
+.hiddenimg08 {
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  left: 544px;
+  top: 5509px;
+  opacity: 0.0;
+}
+
+.hiddenimg08:hover {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  left: 430px;
+  top: 5586px;
+  opacity: 1.0
+}
+
+
+/* + */
+
+.symbol9 {
+position: absolute;
+width: 67px;
+height: 59px;
+left: 730px;
+top: 5446px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 54px;
+
+color: #FFFFFF;
+}
+
+.hiddenimg09 {
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  left: 734px;
+  top: 5509px;
+  opacity: 0.0;
+}
+
+.hiddenimg09:hover {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  left: 620px;
+  top: 5586px;
+  opacity: 1.0
+}

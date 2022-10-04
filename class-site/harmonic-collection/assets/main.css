@@ -40,11 +40,12 @@ h3.line2 {
 
 
 .tag1 {
-transform: rotate(2deg);
-transition: all 0.7s ease;
-position: absolute;
-top: 198px;
-left: 240px;
+  -webkit-transform: rotate(2deg);
+  transform: rotate(2deg);
+  transition: all 0.7s ease;
+  position: absolute;
+  top: 198px;
+  left: 240px;
 }
 
 .tag1:hover {
@@ -55,8 +56,6 @@ left: 240px;
 }
 
 .tag2 {
-  position: absolute;
-  right
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
   transition: all 0.7s ease;
@@ -119,4 +118,57 @@ left: 240px;
   top: 240px;
   left: 450px;
   opacity: 1.0;
+}
+
+.tag1-02 {
+-webkit-transform: rotate(-3deg);
+transform: rotate(-3deg);
+transition: all 0.7s ease;
+position: absolute;
+top: 190px;
+left: 690px;
+}
+
+.tag1-02:hover {
+  -webkit-transform: rotate(-7deg);
+  transform-origin: top center;
+  transform: rotate(-7deg);
+  cursor: pointer;
+}
+
+.tag2-02 {
+  -webkit-transform: rotate(2deg);
+  transform: rotate(2deg);
+  transition: all 0.7s ease;
+  filter: none;
+  cursor: pointer;
+  position: absolute;
+  top: 205px;
+  left: 675px;
+}
+
+.tag2-02:hover {
+  -webkit-transform: rotate(6deg);
+  transform-origin: top center;
+  transform: rotate(6deg);
+  cursor: pointer;
+  -webkit-filter: grayscale(100%) invert(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) invert(100%);
+}
+
+.tag3-02 {
+  -webkit-transform: rotate(15deg);
+  transform-origin: top center;
+  transform: rotate(15deg);
+  transition: all 0.7s ease;
+  position: absolute;
+  top: 250px;
+  left: 640px;
+}
+
+.tag3-02:hover {
+  -webkit-transform: rotate(40deg);
+  transform-origin: top center;
+  transform: rotate(40deg);
+  cursor: pointer;
 }
