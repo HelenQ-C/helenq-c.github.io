@@ -1,0 +1,569 @@
+
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.rectangleleft {
+  width: 300px;
+  height: 720px;
+  background-color: #08131f;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+}
+
+.rectangledarkblue {
+  width: 1200px;
+  height: 720px;
+  background-color: #08131f;
+  position: absolute;
+  top: 0px;
+  left: 300px;
+
+}
+
+.blackstrips {
+  width: 50px;
+  height: 720px;
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 300px;
+
+}
+
+.blackstrips02 {
+  width: 50px;
+  height: 720px;
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 400px;
+
+}
+
+.blackstrips03 {
+  width: 50px;
+  height: 720px;
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 500px;
+
+}
+
+.blackstrips04 {
+  width: 50px;
+  height: 720px;
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 600px;
+
+}
+
+.blackstrips05 {
+  width: 50px;
+  height: 720px;
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 700px;
+
+}
+
+.ground {
+  width: 1500px;
+  height: 340px;
+  background-color: #1C1E2B;
+  position: absolute;
+  top: 680px;
+  left:0px;
+}
+
+.lightblueboard {
+  width: 450px;
+  height: 300px;
+  background-color: #2CF2FF;
+  position: absolute;
+  top: 150px;
+  left: 200px;
+}
+
+.lightblueboard {
+  width: 450px;
+  height: 300px;
+  background-color: #2CF2FF;
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  border-radius: 10%;
+}
+
+.lightboard {
+  width: 420px;
+  height: 275px;
+  background-color: white;
+  position: absolute;
+  top: 165px;
+  left: 215px;
+}
+
+.biglightcover{
+  width: 455px;
+  height: 305px;
+  background-color: #36baff;
+  position: absolute;
+  top: 158px;
+  left: 208px;
+  opacity: 0.3;
+  border-radius: 10%;
+}
+
+.wall {
+  width: 1500px;
+  height: 180px;
+  background-color: #001d31;
+  position: absolute;
+  top: 550px;
+  left:290px;
+}
+
+.redwall {
+  width: 1500px;
+  height: 150px;
+  background-color: #df1b31;
+  position: absolute;
+  top: 580px;
+  left: 120px;
+}
+
+.archorangebottom {
+  width: 180px;
+  height: 300px;
+  background-color: #fc5300;
+  position: absolute;
+  top: 350px;
+  left: 120px;
+}
+
+.archorgangetop {
+  border-radius: 50% / 100% 100% 0 0;
+  background-color: #fc5300;
+  width: 180px;
+  height: 100px;
+  position: absolute;
+  top: 250px;
+  left: 120px;
+}
+
+.orangestrip {
+  width: 35px;
+  height: 720px;
+  background-color: #fc4419;
+  position: absolute;
+  top: 0px;
+  left: 280px;
+}
+
+.orangestrip02 {
+  width: 22px;
+  height: 720px;
+  background-color: #fc4419;
+  position: absolute;
+  top: 0px;
+  left: 120px;
+}
+
+.archbottom {
+  width: 140px;
+  height: 300px;
+  background-color: #031e36;
+  position: absolute;
+  top: 350px;
+  left: 140px;
+}
+
+.archtop {
+  border-radius: 50% / 100% 100% 0 0;
+  background-color: #031e36;
+  width: 140px;
+  height: 75px;
+  position: absolute;
+  top: 280px;
+  left: 140px;
+}
+
+.pinklightboard {
+  width: 90px;
+  height: 160px;
+  background-color: #ff35fc;
+  position: absolute;
+  top: 500px;
+  left: 330px;
+}
+
+.pinklightboardtop {
+  width: 85px;
+  height: 155px;
+  background-color: #f96eee;
+  position: absolute;
+  top: 501px;
+  left: 332px;
+}
+
+.lightcover {
+  width: 90px;
+  height: 160px;
+  background-color: #3a55ff;
+  position: absolute;
+  top: 505px;
+  left: 335px;
+  opacity: 0.4;
+}
+
+.lightorgboard {
+  width: 90px;
+  height: 160px;
+  background-color: #fc6214;
+  position: absolute;
+  top: 500px;
+  left: 510px;
+}
+
+.lightorgboardtop {
+  width: 85px;
+  height: 155px;
+  background-color: white;
+  position: absolute;
+  top: 501px;
+  left: 513px;
+}
+
+.lightcover02 {
+  width: 90px;
+  height: 160px;
+  background-color: #3a55ff;
+  position: absolute;
+  top: 505px;
+  left: 515px;
+  opacity: 0.4;
+}
+
+.pinklightboard02 {
+  width: 90px;
+  height: 140px;
+  background-color: #ff35fc;
+  position: absolute;
+  top: 495px;
+  left: 705px;
+}
+
+.pinklightboardtop02 {
+  width: 85px;
+  height: 140px;
+  background-color: #e2fd58;
+  position: absolute;
+  top: 496px;
+  left: 708px;
+}
+
+.lightcover03 {
+  width: 90px;
+  height: 140px;
+  background-color: #3a55ff;
+  position: absolute;
+  top: 500px;
+  left: 710px;
+  opacity: 0.4;
+}
+
+.reccolumn {
+  width: 50px;
+  height: 200px;
+  background-color: #008a8b;
+  position: absolute;
+  top: 530px;
+  left: 260px;
+}
+
+.reccolumn02 {
+  width: 60px;
+  height: 200px;
+  background-color: #008a8b;
+  position: absolute;
+  top: 530px;
+  left: 437px;
+}
+
+.reccolumn03 {
+  width: 60px;
+  height: 200px;
+  background-color: #008a8b;
+  position: absolute;
+  top: 530px;
+  left: 624px;
+}
+
+.pinklightboard03 {
+  width: 90px;
+  height: 140px;
+  background-color: #ff35fc;
+  position: absolute;
+  top: 300px;
+  left: 705px;
+}
+
+.pinklightboardtop03 {
+  width: 85px;
+  height: 130px;
+  background-color: #54ebff;
+  position: absolute;
+  top: 301px;
+  left: 710px;
+}
+
+.lightcover04 {
+  width: 90px;
+  height: 140px;
+  background-color: #3a55ff;
+  position: absolute;
+  top: 310px;
+  left: 710px;
+  opacity: 0.4;
+}
+
+.bluelightboard {
+  width: 90px;
+  height: 140px;
+  background-color: #006bff;
+  position: absolute;
+  top: 100px;
+  left: 705px;
+}
+
+.bluelightboardtop {
+  width: 85px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  top: 205px;
+  left: 708px;
+}
+
+.lightcover05 {
+  width: 90px;
+  height: 140px;
+  background-color: #3a55ff;
+  position: absolute;
+  top: 110px;
+  left: 710px;
+  opacity: 0.4;
+}
+
+.columncap {
+  width: 60px;
+  height: 25px;
+  background-color: #fde802;
+  position: absolute;
+  top: 510px;
+  left: 255px;
+  border-radius: 30%;
+}
+
+.columncap02 {
+  width: 70px;
+  height: 25px;
+  background-color: #fde802;
+  position: absolute;
+  top: 510px;
+  left: 432px;
+  border-radius: 30%;
+}
+
+.columncap03 {
+  width: 70px;
+  height: 25px;
+  background-color: #fde802;
+  position: absolute;
+  top: 510px;
+  left: 619px;
+  border-radius: 30%;
+}
+
+.columncaptop {
+  width: 60px;
+  height: 15px;
+  background-color: #ffa200;
+  position: absolute;
+  top: 520px;
+  left: 255px;
+  border-radius: 30%;
+}
+
+.columncaptop02 {
+  width: 70px;
+  height: 15px;
+  background-color: #ffa200;
+  position: absolute;
+  top: 520px;
+  left: 432px;
+  border-radius: 30%;
+}
+
+.columncaptop03 {
+  width: 70px;
+  height: 15px;
+  background-color: #ffa200;
+  position: absolute;
+  top: 520px;
+  left: 619px;
+  border-radius: 30%;
+}
+
+.cylinder {
+	width: 50px;
+	height: 150px;
+	border-radius: 50px/25px;
+	background-color: black;
+  position: absolute;
+  top: 650px;
+  left: 300px;
+  border-radius: 30%;
+}
+
+.cylinder01 {
+	width: 50px;
+	height: 150px;
+	border-radius: 50px/25px;
+	background-color: black;
+  position: absolute;
+  top: 650px;
+  left: 100px;
+  border-radius: 30%;
+}
+
+.cylinder02 {
+	width: 50px;
+	height: 150px;
+	border-radius: 50px/25px;
+	background-color: black;
+  position: absolute;
+  top: 650px;
+  left: 500px;
+  border-radius: 30%;
+}
+
+.cylinder03 {
+	width: 50px;
+	height: 150px;
+	border-radius: 50px/25px;
+	background-color: black;
+  position: absolute;
+  top: 650px;
+  left: 700px;
+  border-radius: 30%;
+}
+
+.cylinder04 {
+	width: 50px;
+	height: 150px;
+	border-radius: 50px/25px;
+	background-color: black;
+  position: absolute;
+  top: 650px;
+  left: 900px;
+  border-radius: 30%;
+}
+
+.pinklightboardref {
+  width: 90px;
+  height: 160px;
+  background-color: #ff35fc;
+  position: absolute;
+  top: 740px;
+  left: 330px;
+  opacity: 0.5;
+}
+
+.pinklightboardtopref {
+  width: 85px;
+  height: 155px;
+  background-color: #f96eee;
+  position: absolute;
+  top: 741px;
+  left: 332px;
+  opacity: 0.5;
+}
+
+.lightcoverref {
+  width: 90px;
+  height: 160px;
+  background-color: #3a55ff;
+  position: absolute;
+  top: 735px;
+  left: 335px;
+  opacity: 0.2;
+}
+
+.lightorgboardref {
+  width: 90px;
+  height: 160px;
+  background-color: #fc6214;
+  position: absolute;
+  top: 740px;
+  left: 510px;
+  opacity: 0.4;
+}
+
+.lightorgboardtopref {
+  width: 85px;
+  height: 155px;
+  background-color: white;
+  position: absolute;
+  top: 741px;
+  left: 513px;
+  opacity: 0.4;
+}
+
+.lightcover02ref {
+  width: 90px;
+  height: 160px;
+  background-color: #3a55ff;
+  position: absolute;
+  top: 735px;
+  left: 515px;
+  opacity: 0.2;
+}
+
+.pinklightboard02ref {
+  width: 90px;
+  height: 140px;
+  background-color: #ff35fc;
+  position: absolute;
+  top: 740px;
+  left: 705px;
+  opacity: 0.4;
+}
+
+.pinklightboardtop02ref {
+  width: 85px;
+  height: 140px;
+  background-color: #e2fd58;
+  position: absolute;
+  top: 741px;
+  left: 708px;
+  opacity: 0.4;
+}
+
+.lightcover03ref {
+  width: 90px;
+  height: 140px;
+  background-color: #3a55ff;
+  position: absolute;
+  top: 735px;
+  left: 710px;
+  opacity: 0.2;
+}

@@ -1,0 +1,2223 @@
+body {
+
+  background: #52391C;
+  position: absolute;
+  overflow: hidden;
+}
+
+/* Base */
+
+.base{
+
+position: absolute;
+left: 70px;
+top: -9px;
+
+}
+
+
+
+/* Ellipse 10 */
+
+.ellipse10 {
+box-sizing: border-box;
+
+position: absolute;
+width: 1171px;
+height: 1169px;
+left: 54px;
+top: -225px;
+border-radius: 50%;
+
+background: #E3BB7E;
+border: 2px solid rgba(0, 0, 0, 0.81);
+}
+
+
+/* Ellipse 11 */
+
+.ellipse11 {
+box-sizing: border-box;
+
+position: absolute;
+width: 1096px;
+height: 1105px;
+left: 91px;
+top: -193px;
+border-radius: 50%;
+
+background: #755C3F;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+
+/* Ellipse 9 */
+
+.ellipse09 {
+box-sizing: border-box;
+
+position: absolute;
+width: 1075px;
+height: 1073px;
+left: 102px;
+top: -177px;
+border-radius: 50%;
+
+background: #E3C2AD;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+
+/* Ellipse 1 */
+
+.ellipse01 {
+box-sizing: border-box;
+
+position: absolute;
+width: 672px;
+height: 671.53px;
+left: 304px;
+top: 24px;
+border-radius: 50%;
+
+background: #E3BB7E;
+border: 2px solid rgba(0, 0, 0, 0.81);
+}
+
+
+/* Ellipse 2 */
+
+.ellipse02 {
+box-sizing: border-box;
+
+position: absolute;
+width: 640px;
+height: 640px;
+left: 320px;
+top: 40px;
+border-radius: 50%;
+
+background: #7F1F10;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+/* Ellipse 3 */
+
+.ellipse03 {
+box-sizing: border-box;
+
+position: absolute;
+width: 615.32px;
+height: 615.32px;
+left: 332px;
+top: 52px;
+border-radius: 50%;
+
+background: #E3BB7E;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+
+/* Ellipse 4 */
+
+.ellipse04 {
+box-sizing: border-box;
+
+position: absolute;
+width: 592.89px;
+height: 592.45px;
+left: 344px;
+top: 64px;
+border-radius: 50%;
+
+background: #C8C8D8;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+/* Ellipse 5 */
+
+.ellipse05 {
+box-sizing: border-box;
+
+position: absolute;
+width: 318px;
+height: 318px;
+left: 481px;
+top: 201px;
+border-radius: 50%;
+
+background: #E3BB7E;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+/* Ellipse 7 */
+
+.ellipse07 {
+box-sizing: border-box;
+
+position: absolute;
+width: 308px;
+height: 308px;
+left: 486px;
+top: 205px;
+border-radius: 50%;
+
+background: #A93800;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+/* Ellipse 8 */
+
+.ellipse08 {
+box-sizing: border-box;
+
+position: absolute;
+width: 279px;
+height: 279px;
+left: 501px;
+top: 220px;
+border-radius: 50%;
+
+background: #E3BB7E;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+/* Ellipse 6 */
+
+.ellipse06 {
+box-sizing: border-box;
+
+position: absolute;
+width: 265px;
+height: 265px;
+left: 507px;
+top: 227px;
+border-radius: 50%;
+
+background: #E3C2AD;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+/* Deco */
+
+.deco {
+  -webkit-animation: spin 550s linear infinite;
+  -moz-animation: spin 550s linear infinite;
+  animation: spin 550s linear infinite;
+}
+
+    @-moz-keyframes spin {
+      100% { -moz-transform: rotate(360deg); }
+    }
+    @-webkit-keyframes spin {
+      100% { -webkit-transform: rotate(360deg); }
+    }
+    @keyframes spin {
+      100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+    }
+
+
+/* Ellipse 12 */
+
+.ellipse12 {
+box-sizing: border-box;
+
+position: absolute;
+width: 119px;
+height: 119px;
+left: 483px;
+top: 506px;
+border-radius: 50%;
+
+background: #E3BB7E;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+/* Ellipse 12 */
+
+.ellipse12-2 {
+box-sizing: border-box;
+
+position: absolute;
+width: 119px;
+height: 119px;
+left: 389px;
+top: 421px;
+border-radius: 50%;
+
+background: #E3BB7E;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+/* Ellipse 13 */
+
+.ellipse13 {
+box-sizing: border-box;
+
+position: absolute;
+width: 119px;
+height: 119px;
+left: 354px;
+top: 300px;
+border-radius: 50%;
+
+background: #E3BB7E;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+/* Ellipse 14 */
+
+.ellipse14 {
+box-sizing: border-box;
+
+position: absolute;
+width: 119px;
+height: 119px;
+left: 388px;
+top: 176px;
+border-radius: 50%;
+
+background: #E3BB7E;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+/* Ellipse 15 */
+
+.ellipse15 {
+box-sizing: border-box;
+
+position: absolute;
+width: 119px;
+height: 119px;
+left: 487px;
+top: 94px;
+border-radius: 50%;
+
+background: #E3BB7E;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+/* Ellipse 16 */
+
+.ellipse16 {
+box-sizing: border-box;
+
+position: absolute;
+width: 119px;
+height: 119px;
+left: 612px;
+top: 74px;
+border-radius: 50%;
+
+background: #E3BB7E;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+/* Ellipse 17 */
+
+.ellipse17 {
+box-sizing: border-box;
+
+position: absolute;
+width: 119px;
+height: 119px;
+left: 608px;
+top: 525px;
+border-radius: 50%;
+
+background: #E3BB7E;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+/* Ellipse 18 */
+
+.ellipse18 {
+box-sizing: border-box;
+
+position: absolute;
+width: 119px;
+height: 119px;
+left: 726px;
+top: 476px;
+border-radius: 50%;
+
+background: #E3BB7E;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+/* Ellipse 19 */
+
+.ellipse19 {
+box-sizing: border-box;
+
+position: absolute;
+width: 119px;
+height: 119px;
+left: 795px;
+top: 366px;
+border-radius: 50%;
+
+background: #E3BB7E;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+/* Ellipse 20 */
+
+.ellipse20 {
+box-sizing: border-box;
+
+position: absolute;
+width: 119px;
+height: 119px;
+left: 795px;
+top: 238px;
+border-radius: 50%;
+
+background: #E3BB7E;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+/* Ellipse 21 */
+
+.ellipse21 {
+box-sizing: border-box;
+
+position: absolute;
+width: 119px;
+height: 119px;
+left: 728px;
+top: 128px;
+border-radius: 50%;
+
+background: #E3BB7E;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+/* Decoration */
+
+.decoration {
+
+}
+
+.decoimg {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 490px;
+  top: 513px;
+  opacity: 0.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+.decoimg:hover {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 490px;
+  top: 513px;
+  opacity: 1.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+  border-radius: 50%;
+}
+
+/* Ellipse 22 */
+
+.ellipse22 {
+box-sizing: border-box;
+
+position: absolute;
+width: 105px;
+height: 105px;
+left: 490px;
+top: 513px;
+border-radius: 50%;
+
+background: #D5AA68;
+border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+.shift {
+  position: absolute;
+  top: -14px;
+  left: 10px;
+}
+
+/* Rectangle 2 */
+
+.rectangle02 {
+box-sizing: border-box;
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 506.6px;
+top: 554.76px;
+
+background: #E3BB7E;
+border: 1px solid #000000;
+transform: rotate(-28.34deg);
+}
+
+/* Rectangle 1 */
+
+.rectangle01 {
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 511px;
+top: 558.38px;
+
+background: #A30104;
+border: 1px solid #000000;
+transform: rotate(-28.34deg);
+}
+
+/* Rectangle 3 */
+
+.rectangle03 {
+box-sizing: border-box;
+
+position: absolute;
+width: 35.77px;
+height: 35.77px;
+left: 515.5px;
+top: 564px;
+
+background: #CD383B;
+border: 1px solid #000000;
+transform: rotate(-28.34deg);
+}
+
+.shift02 {
+  position: absolute;
+  top: 14px;
+  left: -8px;
+}
+
+/* Ellipse 23 */
+
+.ellipse23 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 495.76px;
+top: 551.51px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(-28.34deg);
+}
+
+
+/* Ellipse 24 */
+
+.ellipse24 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 549.45px;
+top: 522.56px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(-28.34deg);
+}
+
+
+/* Ellipse 25 */
+
+.ellipse25 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 578.4px;
+top: 576.24px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(-28.34deg);
+}
+
+/* Ellipse 26 */
+
+.ellipse26 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 524.72px;
+top: 605.2px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(-28.34deg);
+}
+
+.decoration2 {
+}
+
+/* Ellipse 22 */
+
+.ellipse22-2 {
+box-sizing: border-box;
+
+position: absolute;
+width: 105px;
+height: 105px;
+left: 397px;
+top: 428px;
+border-radius: 50%;
+
+background: #D5AA68;
+border: 1px solid rgba(0, 0, 0, 0.81);
+transform: rotate(45.28deg);
+}
+
+.shift03 {
+  position: absolute;
+  left: -2px;
+  top: 2px;
+
+}
+
+/* Rectangle 2 */
+
+.rectangle02-2 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  left: 425px;
+  top: 453px;
+
+  background: #E3BB7E;
+  border: 1px solid #000000;
+  transform: rotate(16.94deg);
+}
+
+/* Rectangle 1 */
+
+.rectangle01-2 {
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 429px;
+top: 456px;
+
+background: #A30104;
+border: 1px solid #000000;
+transform: rotate(16.94deg);
+}
+
+
+/* Rectangle 3 */
+
+.rectangle03-2 {
+box-sizing: border-box;
+
+position: absolute;
+width: 35.77px;
+height: 35.77px;
+left: 434px;
+top: 461px;
+
+background: #CD383B;
+border: 1px solid #000000;
+transform: rotate(16.94deg);
+}
+
+/* Ellipse 23 */
+
+.ellipse23-2 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 425.55px;
+top: 437.44px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(16.94deg);
+}
+
+
+/* Ellipse 24 */
+
+.ellipse24-2 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 483.9px;
+top: 455.22px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(16.94deg);
+}
+
+/* Ellipse 25 */
+
+.ellipse25-2 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 466.13px;
+top: 513.57px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(16.94deg);
+}
+
+/* Ellipse 26 */
+
+.ellipse26-2 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 407.77px;
+top: 495.8px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(16.94deg);
+}
+
+.decoration3 {
+position: absolute;
+}
+
+
+/* Ellipse 22 */
+
+.ellipse22-3 {
+box-sizing: border-box;
+
+position: absolute;
+width: 105px;
+height: 105px;
+left: 361px;
+top: 307px;
+border-radius: 50%;
+
+background: #D5AA68;
+border: 1px solid rgba(0, 0, 0, 0.81);
+transform: rotate(73.6deg);
+}
+
+/* Rectangle 2 */
+
+.rectangle02-3 {
+box-sizing: border-box;
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 390px;
+top: 332px;
+
+background: #E3BB7E;
+border: 1px solid #000000;
+transform: rotate(45.26deg);
+}
+
+
+/* Rectangle 1 */
+
+.rectangle01-3 {
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 395px;
+top: 336px;
+
+background: #A30104;
+border: 1px solid #000000;
+transform: rotate(45.26deg);
+}
+
+/* Rectangle 3 */
+
+.rectangle03-3 {
+box-sizing: border-box;
+
+position: absolute;
+width: 35.77px;
+height: 35.77px;
+left: 400px;
+top: 340px;
+
+background: #CD383B;
+border: 1px solid #000000;
+transform: rotate(45.26deg);
+}
+
+/* Ellipse 23 */
+
+.ellipse23-3 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 413.72px;
+top: 310.71px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(45.26deg);
+}
+
+/* Ellipse 24 */
+
+.ellipse24-3 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 456.66px;
+top: 354.04px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(45.26deg);
+}
+
+/* Ellipse 25 */
+
+.ellipse25-3 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 413.33px;
+top: 396.98px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(45.26deg);
+}
+
+
+/* Ellipse 26 */
+
+.ellipse26-3 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 370.39px;
+top: 353.65px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(45.26deg);
+}
+
+
+
+/* Ellipse 22 */
+
+.ellipse22-4 {
+box-sizing: border-box;
+
+position: absolute;
+width: 105px;
+height: 105px;
+left: 395.67px;
+top: 183px;
+border-radius: 50%;
+
+background: #D5AA68;
+border: 1px solid rgba(0, 0, 0, 0.81);
+transform: rotate(91.08deg);
+}
+
+/* Rectangle 2 */
+
+.rectangle02-4 {
+box-sizing: border-box;
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 425.6px;
+top: 207.49px;
+
+background: #E3BB7E;
+border: 1px solid #000000;
+transform: rotate(62.74deg);
+}
+
+/* Rectangle 1 */
+
+.rectanlge01-4 {
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 430px;
+top: 210.88px;
+
+background: #A30104;
+border: 1px solid #000000;
+transform: rotate(62.74deg);
+}
+
+/* Rectangle 3 */
+
+.rectangle03-4 {
+box-sizing: border-box;
+
+position: absolute;
+width: 35.77px;
+height: 35.77px;
+left: 435.12px;
+top: 216.11px;
+
+background: #CD383B;
+border: 1px solid #000000;
+transform: rotate(62.74deg);
+}
+
+/* Ellipse 23 */
+
+.ellipse23-4 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 462.05px;
+top: 189.72px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(62.74deg);
+}
+
+
+/* Ellipse 24 */
+
+.ellipse24-4{
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 489.99px;
+top: 243.94px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(62.74deg);
+}
+
+/* Ellipse 25 */
+
+.ellipse25-4 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 435.77px;
+top: 271.88px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(62.74deg);
+}
+
+/* Ellipse 26 */
+
+.ellipse26-4 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 407.83px;
+top: 217.66px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(62.74deg);
+}
+
+.correct {
+  position: absolute;
+  left: -3px;
+}
+
+.correct2 {
+  position: absolute;
+  left: -3.5px;
+}
+
+/* Decoration5 */
+
+
+/* Ellipse 22 */
+
+.ellipse22-5{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 494.67px;
+  top: 100.68px;
+  border-radius: 50%;
+
+  background: #D5AA68;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+  transform: rotate(91.08deg);
+}
+
+
+/* Rectangle 2 */
+
+.rectangle02-5 {
+box-sizing: border-box;
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 520.11px;
+top: 127px;
+
+background: #E3BB7E;
+border: 1px solid #000000;
+transform: rotate(108.82deg);
+}
+
+/* Rectangle 1 */
+
+.rectangle01-5 {
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 524.03px;
+top: 131px;
+
+background: #A30104;
+border: 1px solid #000000;
+transform: rotate(108.82deg);
+}
+
+/* Rectangle 3 */
+
+.rectangle03-5 {
+box-sizing: border-box;
+
+position: absolute;
+width: 35.77px;
+height: 35.77px;
+left: 528.32px;
+top: 136px;
+
+background: #CD383B;
+border: 1px solid #000000;
+transform: rotate(108.82deg);
+}
+
+/* Ellipse 23 */
+
+.ellipse23-5 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 590.26px;
+top: 131.95px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(108.82deg);
+}
+
+/* Ellipse 24 */
+
+.ellipse24-5 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 570.59px;
+top: 189.69px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(108.82deg);
+}
+
+/* Ellipse 25 */
+
+.ellipse25-5 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 512.85px;
+top: 170.01px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(108.82deg);
+}
+
+/* Ellipse 26 */
+
+.ellipse26-5 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 532.52px;
+top: 112.27px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(108.82deg);
+}
+
+.correct3 {
+position: absolute;
+left: -10px;
+}
+
+/* Decoration6 */
+
+
+
+/* Ellipse 22 */
+
+.ellipse22-6 {
+box-sizing: border-box;
+
+position: absolute;
+width: 105px;
+height: 105px;
+left: 619px;
+top: 80.7px;
+border-radius: 50%;
+
+background: #D5AA68;
+border: 1px solid rgba(0, 0, 0, 0.81);
+transform: rotate(168.99deg);
+}
+
+/* Rectangle 2 */
+
+.rectangle02-6 {
+box-sizing: border-box;
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 645px;
+top: 105px;
+
+background: #E3BB7E;
+border: 1px solid #000000;
+transform: rotate(140.65deg);
+}
+
+/* Rectangle 1 */
+
+.rectangle01-6 {
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 649px;
+top: 109px;
+
+background: #A30104;
+border: 1px solid #000000;
+transform: rotate(140.65deg);
+}
+
+/* Rectangle 3 */
+
+.rectangle03-6 {
+box-sizing: border-box;
+
+position: absolute;
+width: 35.77px;
+height: 35.77px;
+left: 654px;
+top: 114px;
+
+background: #CD383B;
+border: 1px solid #000000;
+transform: rotate(140.65deg);
+}
+
+/* Ellipse 23 */
+
+.ellipse23-6 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 719.75px;
+top: 138px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(140.65deg);
+}
+
+/* Ellipse 24 */
+
+.ellipse24-6 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 672.58px;
+top: 176.67px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(140.65deg);
+}
+
+/* Ellipse 25 */
+
+.ellipse25-6 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 633.9px;
+top: 129.5px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(140.65deg);
+}
+
+/* Ellipse 26 */
+
+.ellipse26-6 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 681.07px;
+top: 90.83px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(140.65deg);
+}
+
+.correct4 {
+  position: absolute;
+  left: -9px;
+  top: -6px;
+}
+
+/* Decoration7 */
+
+
+/* Ellipse 22 */
+
+.ellipse22-7 {
+box-sizing: border-box;
+
+position: absolute;
+width: 105px;
+height: 105px;
+left: 735px;
+top: 134px;
+border-radius: 50%;
+
+background: #D5AA68;
+border: 1px solid rgba(0, 0, 0, 0.81);
+transform: rotate(-150.36deg);
+}
+
+/* Rectangle 2 */
+
+.rectangle02-7 {
+box-sizing: border-box;
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 762px;
+top: 162px;
+
+background: #E3BB7E;
+border: 1px solid #000000;
+transform: rotate(-178.7deg);
+}
+
+/* Rectangle 1 */
+
+.rectangle01-7 {
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 766px;
+top: 166px;
+
+background: #A30104;
+border: 1px solid #000000;
+transform: rotate(-178.7deg);
+}
+
+/* Rectangle 3 */
+
+.rectangle03-7 {
+box-sizing: border-box;
+
+position: absolute;
+width: 35.77px;
+height: 35.77px;
+left: 770px;
+top: 171px;
+
+background: #CD383B;
+border: 1px solid #000000;
+transform: rotate(-178.7deg);
+}
+
+/* Ellipse 23 */
+
+.ellipse23-7 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 821.27px;
+top: 222.83px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(-178.7deg);
+}
+
+/* Ellipse 24 */
+
+.ellipse24-7 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 760.28px;
+top: 221.45px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(-178.7deg);
+}
+
+/* Ellipse 25 */
+
+.ellipse25-7 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 761.67px;
+top: 160.46px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(-178.7deg);
+}
+
+/* Ellipse 26 */
+
+.ellipse26-7 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 822.65px;
+top: 161.85px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(-178.7deg);
+}
+
+.correct5 {
+  position: absolute;
+  top: -8px;
+  left: -7px;
+}
+
+/* Decoration8 */
+
+
+/* Ellipse 22 */
+
+.ellipse22-8 {
+box-sizing: border-box;
+
+position: absolute;
+width: 105px;
+height: 105px;
+left: 803px;
+top: 245px;
+border-radius: 50%;
+
+background: #D5AA68;
+border: 1px solid rgba(0, 0, 0, 0.81);
+transform: rotate(-119.75deg);
+}
+
+
+/* Rectangle 2 */
+
+.rectangle02-8 {
+box-sizing: border-box;
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 830px;
+top: 270px;
+
+background: #E3BB7E;
+border: 1px solid #000000;
+transform: rotate(-148.09deg);
+}
+
+/* Rectangle 1 */
+
+.rectangle01-8 {
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 834px;
+top: 274px;
+
+background: #A30104;
+border: 1px solid #000000;
+transform: rotate(-148.09deg);
+}
+
+/* Rectangle 3 */
+
+.rectangle03-8 {
+box-sizing: border-box;
+
+position: absolute;
+width: 35.77px;
+height: 35.77px;
+left: 839px;
+top: 280px;
+
+background: #CD383B;
+border: 1px solid #000000;
+transform: rotate(-148.09deg);
+}
+
+/* Ellipse 23 */
+
+.ellipse23-8 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 865.65px;
+top: 345.12px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(-148.09deg);
+}
+
+/* Ellipse 24 */
+
+.ellipse24-8 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 813.86px;
+top: 312.87px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(-148.09deg);
+}
+
+/* Ellipse 25 */
+
+.ellipse25-8 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 846.11px;
+top: 261.09px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(-148.09deg);
+}
+
+/* Ellipse 26 */
+
+.ellipse26-8 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 897.89px;
+top: 293.34px;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(-148.09deg);
+}
+
+.correct6 {
+  position: absolute;
+  top: -10px;
+  left: -3px;
+}
+
+/* Decoration9 */
+
+
+/* Ellipse 22 */
+
+.ellipse22-9 {
+box-sizing: border-box;
+
+position: absolute;
+width: 105px;
+height: 105px;
+left: 801.61px;
+top: 373px;
+border-radius: 50%;
+
+background: #D5AA68;
+border: 1px solid rgba(0, 0, 0, 0.81);
+transform: rotate(-89.43deg);
+}
+
+/* Rectangle 2 */
+
+.rectangle02-9 {
+box-sizing: border-box;
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 827px;
+top: 398px;
+
+background: #E3BB7E;
+border: 1px solid #000000;
+transform: rotate(-117.77deg);
+}
+
+/* Rectangle 1 */
+
+.rectangle01-9 {
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 830px;
+top: 402px;
+
+background: #A30104;
+border: 1px solid #000000;
+transform: rotate(-117.77deg);
+}
+
+/* Rectangle 3 */
+
+.rectangle03-9 {
+box-sizing: border-box;
+
+position: absolute;
+width: 35.77px;
+height: 35.77px;
+left: 834px;
+top: 407px;
+
+background: #CD383B;
+border: 1px solid #000000;
+transform: rotate(-117.77deg);
+}
+
+/* Ellipse 23 */
+
+.ellipse23-9 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 840.18px;
+top: 472.23px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(-117.77deg);
+}
+
+/* Ellipse 24 */
+
+.ellipse24-9 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 811.76px;
+top: 418.26px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(-117.77deg);
+}
+
+/* Ellipse 25 */
+
+.ellipse25-9 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 865.73px;
+top: 389.84px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(-117.77deg);
+}
+
+/* Ellipse 26 */
+
+.ellipse26-9 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 894.15px;
+top: 443.81px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(-117.77deg);
+}
+
+.correct7 {
+  position: absolute;
+  top: -9px;
+  left: -3px;
+}
+
+
+/* Decoration10 */
+
+/* Ellipse 22 */
+
+.ellipse22-10 {
+box-sizing: border-box;
+
+position: absolute;
+width: 105px;
+height: 105px;
+left: 733px;
+top: 483px;
+border-radius: 50%;
+
+background: #D5AA68;
+border: 1px solid rgba(0, 0, 0, 0.81);
+transform: rotate(124.98deg);
+}
+
+/* Rectangle 2 */
+
+.rectangle02-10 {
+box-sizing: border-box;
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 760px;
+top: 508px;
+
+background: #E3BB7E;
+border: 1px solid #000000;
+transform: rotate(96.63deg);
+}
+
+/* Rectangle 1 */
+
+.rectangle01-10 {
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 764px;
+top: 512px;
+
+background: #A30104;
+border: 1px solid #000000;
+transform: rotate(96.63deg);
+}
+
+/* Rectangle 3 */
+
+.rectangle03-10 {
+box-sizing: border-box;
+
+position: absolute;
+width: 35.77px;
+height: 35.77px;
+left: 768px;
+top: 517px;
+
+background: #CD383B;
+border: 1px solid #000000;
+transform: rotate(96.63deg);
+}
+
+/* Ellipse 23 */
+
+.ellipse23-10{
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 823.89px;
+top: 505.35px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(96.63deg);
+}
+
+/* Ellipse 24 */
+
+.ellipse24-10{
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 816.84px;
+top: 565.94px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(96.63deg);
+}
+
+/* Ellipse 25 */
+
+.ellipse25-10 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 756.25px;
+top: 558.89px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(96.63deg);
+}
+
+/* Ellipse 26 */
+
+.ellipse26-10{
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 763.29px;
+top: 498.3px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(96.63deg);
+}
+
+.correct8{
+position: absolute;
+top: -1px;
+left: -8px;
+
+}
+
+/* Decoration11 */
+
+/* Ellipse 22 */
+
+.ellipse22-11 {
+box-sizing: border-box;
+
+position: absolute;
+width: 105px;
+height: 105px;
+left: 615px;
+top: 532px;
+border-radius: 50%;
+
+background: #D5AA68;
+border: 1px solid rgba(0, 0, 0, 0.81);
+transform: rotate(-114.46deg);
+}
+
+/* Rectangle 2 */
+
+.rectangle02-11 {
+box-sizing: border-box;
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 640px;
+top: 555px;
+
+background: #E3BB7E;
+border: 1px solid #000000;
+transform: rotate(-142.8deg);
+}
+
+/* Rectangle 1 */
+
+.rectangle01-11 {
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 644px;
+top: 559px;
+
+background: #A30104;
+border: 1px solid #000000;
+transform: rotate(-142.8deg);
+}
+
+
+/* Rectangle 3 */
+
+.rectangle03-11 {
+box-sizing: border-box;
+
+position: absolute;
+width: 35.77px;
+height: 35.77px;
+left: 648px;
+top: 564px;
+
+background: #CD383B;
+border: 1px solid #000000;
+transform: rotate(-142.8deg);
+}
+
+
+/* Ellipse 23 */
+
+.ellipse23-11 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 674.64px;
+top: 633.36px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(-142.8deg);
+}
+
+/* Ellipse 24 */
+
+.ellipse24-11 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 626.05px;
+top: 596.48px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(-142.8deg);
+}
+
+/* Ellipse 25 */
+
+.ellipse25-11 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 662.93px;
+top: 547.89px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(-142.8deg);
+}
+
+/* Ellipse 26 */
+
+.ellipse26-11 {
+box-sizing: border-box;
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 711.52px;
+top: 584.77px;
+border-radius: 50%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(-142.8deg);
+}
+
+.correct9{
+  position: absolute;
+  top: -12px;
+  left: -6px;
+}
+
+.decoimg2 {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 397px;
+  top: 428px;
+  opacity: 0.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+.decoimg2:hover {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 397px;
+  top: 428px;
+  opacity: 1.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+  border-radius: 50%;
+}
+
+
+.decoimg3 {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 361px;
+  top: 307px;
+  opacity: 0.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+.decoimg3:hover {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 361px;
+  top: 307px;
+  opacity: 1.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+  border-radius: 50%;
+}
+
+.decoimg4 {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 395.67px;
+  top: 183px;
+  opacity: 0.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+.decoimg4:hover {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 395.67px;
+  top: 183px;
+  opacity: 1.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+  border-radius: 50%;
+}
+
+.decoimg5 {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 494.67px;
+  top: 100.68px;
+  opacity: 0.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+.decoimg5:hover {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 494.67px;
+  top: 100.68px;
+  opacity: 1.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+  border-radius: 50%;
+}
+
+.decoimg6 {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 619px;
+  top: 80.7px;
+  opacity: 0.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+.decoimg6:hover {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 619px;
+  top: 80.7px;
+  opacity: 1.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+  border-radius: 50%;
+}
+
+.decoimg7 {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 735px;
+  top: 134px;
+  opacity: 0.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+.decoimg7:hover {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 735px;
+  top: 134px;
+  opacity: 1.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+  border-radius: 50%;
+}
+
+.decoimg8 {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 803px;
+  top: 245px;
+  opacity: 0.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+.decoimg8:hover {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 803px;
+  top: 245px;
+  opacity: 1.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+  border-radius: 50%;
+}
+
+.decoimg9 {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 801.61px;
+  top: 373px;
+  opacity: 0.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+.decoimg9:hover {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 801.61px;
+  top: 373px;
+  opacity: 1.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+  border-radius: 50%;
+}
+
+.decoimg10 {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 733px;
+  top: 483px;
+  opacity: 0.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+.decoimg10:hover {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 733px;
+  top: 483px;
+  opacity: 1.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+  border-radius: 50%;
+}
+
+.decoimg11 {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 615px;
+  top: 532px;
+  opacity: 0.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+}
+
+.decoimg11:hover {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 615px;
+  top: 532px;
+  opacity: 1.0;
+  border: 1px solid rgba(0, 0, 0, 0.81);
+  border-radius: 50%;
+}
+
+.outer {
+  position: absolute;
+  width: 1040px;
+  height: 1040px;
+  left: 120px;
+  top: -162px;
+}
+
+.link {
+  position: absolute;
+  font-family: courier;
+  color: white;
+  right:-100px;
+  top:20px;
+  font-size: 8px;
+}
