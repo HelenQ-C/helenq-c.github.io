@@ -1,6 +1,8 @@
 body {
   background-color: black;
   font-family: 'Noto Sans TC', sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .style1 {
