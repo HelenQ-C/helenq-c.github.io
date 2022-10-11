@@ -174,12 +174,12 @@ left: 690px;
 }
 
 .tag1-03 {
--webkit-transform: rotate(4deg);
-transform: rotate(4deg);
+-webkit-transform: rotate(3deg);
+transform: rotate(3deg);
 transition: all 0.7s ease;
 position: absolute;
 top: 170px;
-left: 990px;
+left: 1015px;
 }
 
 .tag1-03:hover {
