@@ -1,0 +1,762 @@
+
+body {
+font-family: 'Inter', sans-serif;
+font-family: 'Inter Tight', sans-serif;
+background-color: #000000;
+
+position: relative;
+width: 1280px;
+height: 1297.5px;
+
+background: #f5f4f2;
+
+}
+
+h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.15em;
+}
+
+h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 1.945em;
+}
+
+p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.25em;
+}
+
+/* fashoinhouses-single04 1 */
+
+.imgback {
+
+  position: absolute;
+  width: 456px;
+  height: 504px;
+  left: 250px;
+  top: 140px;
+
+}
+
+
+/* fashoinhouses-single03 1 */
+
+.imgmiddle {
+
+  position: absolute;
+  width: 322px;
+  height: 608px;
+  left: 45px;
+  top: 195px;
+
+}
+
+
+/* fashoinhouses-single02 1 */
+
+.imgfront {
+
+  position: absolute;
+  width: 489px;
+  height: 1023px;
+  left: 560px;
+  top: 132px;
+
+}
+
+
+/* fashoinhouses-single01 1 */
+
+.imgveryfront {
+
+  position: absolute;
+  width: 658px;
+  height: 799px;
+  left: 750px;
+  top: 170px;
+
+}
+
+
+/* FASHION HOUSES */
+
+.fashionhouse {
+
+position: absolute;
+width: 900px;
+height: 52px;
+left: 75px;
+top: 0px;
+
+}
+
+
+/* DRESSES DISPLAY */
+
+.dressdisplay {
+
+position: absolute;
+width: 839px;
+height: 15px;
+left: 77px;
+top: 70px;
+
+}
+
+
+
+/* Paul Poiret */
+
+.authors {
+position: absolute;
+left: 75px;
+top: 950px;
+}
+
+.nextline {
+position: absolute;
+left: 75px;
+top: 1100px;
+}
+
+.link {
+  position: absolute;
+  right: -75px;
+  top: 25px;
+}
+
+a:link {
+
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #d04000;
+}
+
+
+.object {
+  animation: MoveUpDown 60s linear infinite;
+  position: absolute;
+  left: 270px;
+  top: 0px;
+  filter: blur(1px);
+}
+
+.object:hover {
+    filter: blur(0px);
+}
+
+.object02 {
+  animation: MoveUpDown02 35s linear infinite;
+  position: absolute;
+  left: 460px;
+  bottom: 500px;
+  filter: blur(1px);
+}
+
+.object02:hover {
+  filter: blur(0px);
+}
+
+.object03 {
+  animation: MoveUpDown03 2s linear infinite;
+  position: absolute;
+  left: 650px;
+  top: 100px;
+  filter: blur(1px);
+}
+
+.object03:hover {
+  filter: blur(0px);
+}
+
+.object04 {
+  animation: MoveUpDown04 30s linear infinite;
+  position: absolute;
+  left: 1060px;
+  top: 50px;
+  filter: blur(1px);
+}
+
+.object04:hover {
+  filter: blur(0px);
+}
+
+
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(720px);
+  }
+}
+
+@keyframes MoveUpDown03 {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+}
+
+@keyframes MoveUpDown02 {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-720px);
+  }
+}
+
+@keyframes MoveUpDown04 {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(600px);
+  }
+}
+
+
+@media (max-width: 768px) {
+  body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
+    background-color: #000000;
+
+    position: relative;
+    width: 768px;
+    height: 957px;
+
+    background: #f5f4f2;
+
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: -0.15em;
+
+    color: #A6351C;
+
+  }
+
+  h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 2.6em;
+
+    color: #765651;
+  }
+
+  p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+
+    color: #BF5F44;
+  }
+
+  /* fashoinhouses-single04 1 */
+
+  .imgback {
+
+    position: absolute;
+    width: 474px;
+    height: 523px;
+    left: 182px;
+    top: 104px;
+
+  }
+
+
+  /* fashoinhouses-single03 1 */
+
+  .imgmiddle {
+
+    position: absolute;
+    width: 334px;
+    height: 632px;
+    left: -10px;
+    top: 181px;
+
+  }
+
+
+  /* fashoinhouses-single02 1 */
+
+  .imgfront {
+
+    position: absolute;
+    width: 509px;
+    height: 1061px;
+    left: 324px;
+    top: 134px;
+
+  }
+
+
+  /* fashoinhouses-single01 1 */
+
+  .imgveryfront {
+
+    visibility: hidden;
+    position: absolute;
+    width: 658px;
+    height: 799px;
+    left: 750px;
+    top: 270px;
+
+  }
+
+
+  /* FASHION HOUSES */
+
+  .fashionhouse {
+    position: absolute;
+    width: 491px;
+    height: 52px;
+    left: 40px;
+    top: -20px;
+
+  }
+
+
+  /* DRESSES DISPLAY */
+
+  .dressdisplay {
+    position: absolute;
+    width: 839px;
+    height: 10px;
+    left: 44px;
+    top: 90px;
+
+  }
+
+  .authors {
+    position: absolute;
+    left: 45px;
+    top: 1000px;
+  }
+
+  .nextline {
+    position: absolute;
+    left: 198px;
+    top: 1000px;
+  }
+
+  .object {
+    visibility: hidden;
+  }
+
+  .object:hover {
+    visibility: hidden;
+  }
+
+  .object02 {
+    visibility: hidden;
+  }
+
+  .object02:hover {
+    visibility: hidden;
+  }
+
+  .object03 {
+    visibility: hidden;
+  }
+
+  .object03:hover {
+    visibility: hidden;
+  }
+
+  .object04 {
+    visibility: hidden;
+  }
+
+  .object04:hover {
+    visibility: hidden;
+  }
+
+}
+
+@media (max-width: 480px) {
+  body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
+    background-color: #000000;
+
+    position: relative;
+    width: 480px;
+    height: 1362px;
+
+    background: #f5f4f2;
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 60px;
+    /* or 94% */
+    letter-spacing: -0.15em;
+
+    color: #937971;
+
+  }
+
+  h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    /* identical to box height */
+    letter-spacing: 1.28em;
+
+    color: #797A7E;
+  }
+
+  p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    letter-spacing: 0.25em;
+
+    color: #A7AAAD;
+
+  }
+
+  /* fashoinhouses-single04 1 */
+
+  .imgback {
+
+    position: absolute;
+    width: 474px;
+    height: 523px;
+    left: 56px;
+    top: 160px;
+
+  }
+
+
+  /* fashoinhouses-single03 1 */
+
+  .imgmiddle {
+
+    position: absolute;
+    width: 430px;
+    height: 814px;
+    left: -47px;
+    top: 366px;
+
+  }
+
+
+  /* fashoinhouses-single02 1 */
+
+  .imgfront {
+
+    visibility: hidden;
+    position: absolute;
+    width: 509px;
+    height: 1061px;
+    left: 324px;
+    top: 134px;
+
+  }
+
+
+  /* fashoinhouses-single01 1 */
+
+  .imgveryfront {
+
+    visibility: hidden;
+    position: absolute;
+    width: 658px;
+    height: 799px;
+    left: 750px;
+    top: 270px;
+
+  }
+
+
+  /* FASHION HOUSES */
+
+  .fashionhouse {
+    position: absolute;
+    width: 269px;
+    height: 158px;
+    left: 20px;
+    top: -25px;
+
+  }
+
+
+  /* DRESSES DISPLAY */
+
+  .dressdisplay {
+    position: absolute;
+    width: 244px;
+    height: 10px;
+    left: 24px;
+    top: 140px;
+  }
+
+  .authors {
+    position: absolute;
+    right: 30px;
+    top: 1040px;
+    text-align: right;
+  }
+
+  .nextline {
+    position: absolute;
+    right: 30px;
+    top: 1190px;
+    text-align: right;
+  }
+
+  .object {
+    visibility: hidden;
+  }
+
+  .object:hover {
+    visibility: hidden;
+  }
+
+  .object02 {
+    visibility: hidden;
+  }
+
+  .object02:hover {
+    visibility: hidden;
+  }
+
+  .object03 {
+    visibility: hidden;
+  }
+
+  .object03:hover {
+    visibility: hidden;
+  }
+
+  .object04 {
+    visibility: hidden;
+  }
+
+  .object04:hover {
+    visibility: hidden;
+  }
+
+}
+
+@media (max-width: 320px) {
+  body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
+    background-color: #000000;
+
+    position: relative;
+    width: 320px;
+    height: 864px;
+
+    background: #f5f4f2;
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 50px;
+    /* or 78% */
+    letter-spacing: -0.15em;
+
+    color: #A6351C;
+
+  }
+
+  h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    /* identical to box height */
+    letter-spacing: 1.28em;
+
+    color: #AEADB1;
+  }
+
+  p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+
+    color: #9B8176;
+  }
+
+  /* fashoinhouses-single04 1 */
+
+  .imgback {
+
+    position: absolute;
+    width: 474px;
+    height: 523px;
+    left: -77px;
+    top: 164px;
+
+  }
+
+
+  /* fashoinhouses-single03 1 */
+
+  .imgmiddle {
+
+    visibility: hidden;
+    position: absolute;
+    width: 430px;
+    height: 814px;
+    left: -47px;
+    top: 366px;
+
+  }
+
+
+  /* fashoinhouses-single02 1 */
+
+  .imgfront {
+
+    visibility: hidden;
+    position: absolute;
+    width: 509px;
+    height: 1061px;
+    left: 324px;
+    top: 134px;
+
+  }
+
+
+  /* fashoinhouses-single01 1 */
+
+  .imgveryfront {
+
+    visibility: hidden;
+    position: absolute;
+    width: 658px;
+    height: 799px;
+    left: 750px;
+    top: 270px;
+
+  }
+
+
+  /* FASHION HOUSES */
+
+  .fashionhouse {
+    position: absolute;
+    width: 269px;
+    height: 158px;
+    left: 20px;
+    top: -25px;
+
+  }
+
+
+  /* DRESSES DISPLAY */
+
+  .dressdisplay {
+    position: absolute;
+    width: 244px;
+    height: 10px;
+    left: 24px;
+    top: 140px;
+  }
+
+  .authors {
+    position: absolute;
+    right: 23px;
+    top: 675px;
+    text-align: right;
+  }
+
+  .nextline {
+    position: absolute;
+    right: 30px;
+    top: 800px;
+    text-align: right;
+  }
+
+  .object {
+    visibility: hidden;
+  }
+
+  .object:hover {
+    visibility: hidden;
+  }
+
+  .object02 {
+    visibility: hidden;
+  }
+
+  .object02:hover {
+    visibility: hidden;
+  }
+
+  .object03 {
+    visibility: hidden;
+  }
+
+  .object03:hover {
+    visibility: hidden;
+  }
+
+  .object04 {
+    visibility: hidden;
+  }
+
+  .object04:hover {
+    visibility: hidden;
+  }
+
+}

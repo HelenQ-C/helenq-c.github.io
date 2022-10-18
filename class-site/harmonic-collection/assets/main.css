@@ -242,3 +242,56 @@ left: 1015px;
   transform: rotate(-40deg);
   cursor: pointer;
 }
+
+.tag1-04 {
+-webkit-transform: rotate(-4deg);
+transform: rotate(-4deg);
+transition: all 0.7s ease;
+position: absolute;
+top: 770px;
+left: 350px;
+}
+
+.tag1-04:hover {
+  -webkit-transform: rotate(9deg);
+  transform-origin: top center;
+  transform: rotate(9deg);
+  cursor: pointer;
+}
+
+.tag2-04 {
+  -webkit-transform: rotate(2deg);
+  transform: rotate(2deg);
+  transition: all 0.7s ease;
+  filter: none;
+  cursor: pointer;
+  position: absolute;
+  top: 790px;
+  left: 345px;
+}
+
+.tag2-04:hover {
+  -webkit-transform: rotate(13deg);
+  transform-origin: top center;
+  transform: rotate(13deg);
+  cursor: pointer;
+  -webkit-filter: grayscale(100%) invert(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) invert(100%);
+}
+
+.tag3-04 {
+  -webkit-transform: rotate(8deg);
+  transform-origin: top center;
+  transform: rotate(8deg);
+  transition: all 0.7s ease;
+  position: absolute;
+  top: 800px;
+  left: 240px;
+}
+
+.tag3-04:hover {
+  -webkit-transform: rotate(20deg);
+  transform-origin: top center;
+  transform: rotate(20deg);
+  cursor: pointer;
+}
