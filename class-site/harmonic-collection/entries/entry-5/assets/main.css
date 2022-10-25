@@ -1,0 +1,355 @@
+body {
+  background-color: #EFEEEC;
+}
+
+h2 {
+  font-family: 'Sacramento', cursive;
+  font-size: 64px;
+  color: #7C7570;
+}
+
+h1 {
+  font-family: 'Amita', cursive;
+  font-size: 150px;
+  color: #CB472F;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: 'Amita', cursive;
+  font-size: 58px;
+  color: #CB472F;
+  font-weight: 700;
+  margin-top: -12px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-family: 'Amita', cursive;
+  font-size: 45px;
+  color: #CB472F;
+  font-weight: 700;
+  margin-left: 25px;
+  margin-top: 50px;
+}
+
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  padding: 60px;
+  padding-top: 250px;
+  align: center;
+  margin-bottom: 0px;
+
+  justify-content: center;
+}
+
+.grid-item-top {
+  display: flex;
+  width: 100px;
+  height: 80px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  text-align: center;
+  border-color: #8D7969;
+  background-color: #EAECD9;
+}
+
+.grid-item {
+  display: flex;
+  width: 100px;
+  height: 180px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  text-align: center;
+  border-color: #8D7969;
+}
+
+.calendarflex {
+  display: flex;
+  justify-content: center;
+}
+
+.outerborder{
+  display: flex;
+  border: 2px solid;
+  flex-direction: column;
+  border-color: #322216;
+}
+
+.mainimg {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-bottom: 2px solid;
+  border-right: 0px solid;
+  border-left: 0px solid;
+  border-top: 0px solid;
+  flex-direction: column;
+  margin-right: 0px;
+  border-color: #322216;
+}
+
+.topictext {
+    display: flex;
+    padding: 0px;
+    padding: 70px;
+    display: block;
+    justify-content: center;
+    margin-top: -100px;
+    margin-bottom: -80px;
+}
+
+.month {
+  padding-left: 127px;
+  padding-right: 100px;
+  margin-bottom: -350px;
+  margin-top: -100px;
+}
+
+.butterfly {
+  -webkit-animation:butterfly 2s linear infinite;
+  -moz-animation:butterfly 2s linear infinite;
+  animation:butterfly 2s linear infinite;
+}
+
+.img01 {
+  opacity: 0.0;
+  margin-left: -70px;
+  z-index: 99;
+}
+
+.img01:hover {
+  opacity: 1.0;
+  z-index: 99;
+}
+
+.img04 {
+  opacity: 0.0;
+  margin-left: -82px;
+  z-index: 99;
+}
+
+.img04:hover {
+  opacity: 1.0;
+  z-index: 99;
+}
+
+.img05 {
+  opacity: 0.0;
+  margin-left: -80px;
+  z-index: 99;
+}
+
+.img05:hover {
+  opacity: 1.0;
+  z-index: 99;
+}
+
+.img07 {
+  opacity: 0.0;
+  margin-left: -79px;
+  z-index: 99;
+}
+
+.img07:hover {
+  opacity: 1.0;
+  z-index: 99;
+}
+
+.img09 {
+  opacity: 0.0;
+  margin-left: -84px;
+  z-index: 99;
+}
+
+.img09:hover {
+  opacity: 1.0;
+  z-index: 99;
+}
+
+.img12 {
+  opacity: 0.0;
+  margin-left: -66px;
+  z-index: 99;
+}
+
+.img12:hover {
+  opacity: 1.0;
+  z-index: 99;
+}
+
+.img13 {
+  opacity: 0.0;
+  margin-left: -63.5px;
+  z-index: 99;
+}
+
+.img13:hover {
+  opacity: 1.0;
+  z-index: 99;
+}
+
+.img16 {
+  opacity: 0.0;
+  margin-left: -69px;
+  z-index: 99;
+}
+
+.img16:hover {
+  opacity: 1.0;
+  z-index: 99;
+}
+
+.img17 {
+  opacity: 0.0;
+  margin-left: -61.5px;
+  z-index: 99;
+}
+
+.img17:hover {
+  opacity: 1.0;
+  z-index: 99;
+}
+
+.img19 {
+  opacity: 0.0;
+  margin-left: -69px;
+  z-index: 99;
+}
+
+.img19:hover {
+  opacity: 1.0;
+  z-index: 99;
+}
+
+.img20 {
+  opacity: 0.0;
+  margin-left: -82px;
+  z-index: 99;
+}
+
+.img20:hover {
+  opacity: 1.0;
+  z-index: 99;
+}
+
+.img21 {
+  opacity: 0.0;
+  margin-left: -65px;
+  z-index: 99;
+}
+
+.img21:hover {
+  opacity: 1.0;
+  z-index: 99;
+}
+
+.img22 {
+  opacity: 0.0;
+  margin-left: -77px;
+  z-index: 99;
+}
+
+.img22:hover {
+  opacity: 1.0;
+  z-index: 99;
+}
+
+.img26 {
+  opacity: 0.0;
+  margin-left: -77px;
+  z-index: 99;
+}
+
+.img22:hover {
+  opacity: 1.0;
+  z-index: 99;
+}
+
+.img27 {
+  opacity: 0.0;
+  margin-left: -77px;
+  z-index: 99;
+}
+
+.img22:hover {
+  opacity: 1.0;
+  z-index: 99;
+}
+
+.img26 {
+  opacity: 0.0;
+  margin-left: -77px;
+  z-index: 99;
+}
+
+.img26:hover {
+  opacity: 1.0;
+  z-index: 99;
+}
+
+.img27 {
+  opacity: 0.0;
+  margin-left: -77px;
+  z-index: 99;
+}
+
+.img27:hover {
+  opacity: 1.0;
+  z-index: 99;
+}
+
+.img29 {
+  opacity: 0.0;
+  margin-left: -79px;
+  z-index: 99;
+}
+
+.img29:hover {
+  opacity: 1.0;
+  z-index: 99;
+}
+
+.img30 {
+  opacity: 0.0;
+  margin-left: -79px;
+  z-index: 99;
+}
+
+.img30:hover {
+  opacity: 1.0;
+  z-index: 99;
+}
+
+@-moz-keyframes butterfly {
+  0,100% {
+      -moz-transform: rotate(0deg);
+  }
+  50% {
+      -moz-transform: rotate(10deg);
+  }
+}
+
+@-webkit-keyframes butterfly {
+  0,100% {
+      -webkit-transform: rotate(0deg);
+  }
+  50% {
+      -webkit-transform: rotate(10deg);
+  }
+}
+
+@keyframes butterfly {
+    0,100% {
+        -webkit-transform: rotate(0deg);
+        transform:rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(10deg);
+        transform:rotate(10deg);
+    }
+  }
