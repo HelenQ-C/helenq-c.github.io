@@ -34,6 +34,14 @@ h4 {
   margin-top: 50px;
 }
 
+p {
+  font-family: 'Amita', cursive;
+  font-size: 12px;
+  color: #CB472F;
+  position: absolute;
+  line-height: 0.8;
+  margin-left: 20px;
+}
 
 .grid-container {
   display: flex;

@@ -295,3 +295,56 @@ left: 350px;
   transform: rotate(20deg);
   cursor: pointer;
 }
+
+.tag1-05 {
+-webkit-transform: rotate(-4deg);
+transform: rotate(-4deg);
+transition: all 0.7s ease;
+position: absolute;
+top: 790px;
+left: 700px;
+}
+
+.tag1-05:hover {
+  -webkit-transform: rotate(6deg);
+  transform-origin: top center;
+  transform: rotate(6deg);
+  cursor: pointer;
+}
+
+.tag2-05 {
+  -webkit-transform: rotate(2deg);
+  transform: rotate(2deg);
+  transition: all 0.7s ease;
+  filter: none;
+  cursor: pointer;
+  position: absolute;
+  top: 790px;
+  left: 720px;
+}
+
+.tag2-05:hover {
+  -webkit-transform: rotate(-6deg);
+  transform-origin: top center;
+  transform: rotate(-6deg);
+  cursor: pointer;
+  -webkit-filter: grayscale(100%) invert(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) invert(100%);
+}
+
+.tag3-05 {
+  -webkit-transform: rotate(6deg);
+  transform-origin: top center;
+  transform: rotate(6deg);
+  transition: all 0.7s ease;
+  position: absolute;
+  top: 790px;
+  left: 740px;
+  cursor: pointer;
+}
+
+.tag3-05:hover {
+  -webkit-transform: rotate(15deg);
+  transform-origin: top center;
+  transform: rotate(15deg);
+}
