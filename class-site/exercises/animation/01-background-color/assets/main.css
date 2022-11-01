@@ -1,0 +1,22 @@
+body {
+  background-color: #ccddff;
+  animation: colorSwap 8s ease-in-out;
+}
+
+@keyframes colorSwap {
+  0% {
+    background-color: default;
+  }
+  25% {
+    background-color: #ccffcc;
+  }
+  50% {
+    background-color: #ffccff;
+  }
+  75% {
+    background-color: #ffffcc;
+  }
+  100% {
+    background-color: #ddccff;
+  }
+}

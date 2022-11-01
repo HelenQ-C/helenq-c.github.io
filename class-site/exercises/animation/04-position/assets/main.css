@@ -1,0 +1,49 @@
+body {
+  width: 1440px;
+  height:1024px;
+  overflow: hidden;
+}
+
+.item {
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  animation: transformPosition 7s ease-in-out infinite;
+}
+
+@keyframes transformPosition {
+  0% {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  25% {
+    position: absolute;
+    top: 600px;
+    left: 200px;
+  }
+  50% {
+    position: absolute;
+    top: 0px;
+    left: 1000px;
+  }
+  75% {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  90% {
+    position: absolute;
+    top: 900px;
+    left: 1440px;
+  }
+  100% {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+}

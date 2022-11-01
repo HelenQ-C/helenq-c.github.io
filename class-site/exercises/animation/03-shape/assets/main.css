@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 650px;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  border-radius: 5%;
+  background: #D1A1B9;
+  animation: transformation 8s infinite;
+}
+
+@keyframes transformation {
+  0% {
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    background: #D1A1B9;
+  }
+  25% {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #A1C1D1;
+  }
+  50% {
+    width: 50px;
+    height: 100px;
+    border-radius: 50%;
+    background: #BAD1A1;
+  }
+}

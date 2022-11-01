@@ -1,0 +1,30 @@
+.item {
+  font-family: 'Courier Prime', monospace;
+  color: black;
+  font-size: 200px;
+  animation: swapFontFamily 10s infinite ease-in-out;
+  text-align: center;
+}
+
+@keyframes swapFontFamily {
+  0% {
+    font-family: 'Courier Prime', monospace;
+    color: black;
+  }
+  20% {
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+  }
+  40% {
+    font-family: 'Montserrat', sans-serif;
+    color: red;
+  }
+  60% {
+    font-family: 'Source Code Pro', monospace;
+    color: black;
+  }
+  80% {
+    font-family: 'Courier Prime', monospace;
+    color: black;
+  }
+}
