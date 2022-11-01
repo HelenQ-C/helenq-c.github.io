@@ -1,31 +1,504 @@
-h1 {
-  font-family: sans-serif;
-  font-size: 100pt;
-  margin-top: 0;
-  margin-bottom: 0;
-
-}
+/* Sketch #2 */
 
 body {
-  font-family: courier;
-  margin-top: 0;
-  margin-bottom: 0;
+position: relative;
+width: 1440px;
+height: 2600px;
 
-  background-image: url('imgs/ball-bouncing-trans.gif');
-  background-size:100%;
-  background-repeat: no-repeat;
+font-family: 'Inter', sans-serif;
 
-  color: black;
-  background-color: white;
-  mix-blend-mode: multiply;
-
-  height:100%;
-  width:100%;
-
-  overflow-x: hidden;
-
+overflow-x: hidden;
 }
 
-.overflow-x-hidden {
-  overflow-x: hidden;
+/* blackintro */
+
+.blackintro {
+position: absolute;
+width: 1562px;
+height: 772px;
+left: -10px;
+top: -10px;
+
+background: black;
+}
+
+/* interaction: */
+
+.interaction {
+position: absolute;
+width: 1334px;
+height: 465px;
+left: 264px;
+top: 413px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 250px;
+line-height: 303px;
+letter-spacing: -0.1em;
+
+color: #FFFFFF;
+}
+
+/* Rectangle 2 */
+
+.rec2 {
+position: absolute;
+width: 238px;
+height: 700px;
+left: 35px;
+top: 849px;
+
+background: #000000;
+}
+
+
+/* Rectangle 3 */
+
+.rec3 {
+position: absolute;
+width: 540px;
+height: 211px;
+left: 35px;
+top: 846px;
+
+background: linear-gradient(0deg, #000000, #000000), #000000;
+}
+
+
+/* Rectangle 4 */
+
+.rec4 {
+position: absolute;
+width: 540px;
+height: 211px;
+left: 35px;
+top: 1093px;
+
+background: linear-gradient(0deg, #000000, #000000), #000000;
+}
+
+
+/* Rectangle 5 */
+
+.rec5 {
+position: absolute;
+width: 540px;
+height: 211px;
+left: 35px;
+top: 1338px;
+
+background: linear-gradient(0deg, #000000, #000000), #000000;
+}
+
+/* EXERCISES */
+
+.exercises {
+position: absolute;
+width: 489px;
+height: 166px;
+left: 907px;
+top: 821px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 100px;
+line-height: 121px;
+text-align: right;
+letter-spacing: -0.1em;
+
+color: #000000;
+}
+
+.exercon {
+  position: absolute;
+  top: -10px;
+  left: 0px;
+}
+
+
+/* 01 */
+
+.e01 {
+position: absolute;
+width: 159px;
+height: 24px;
+left: 975px;
+top: 1388px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 44px;
+text-align: right;
+letter-spacing: -0.1em;
+
+color: #000000;
+}
+
+/* all-html */
+
+.all-html {
+  text-decoration: none;
+  position: absolute;
+  width: 135px;
+  height: 24px;
+  left: 1261px;
+  top: 1388px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: right;
+
+  color: #000000;
+}
+
+.all-html:hover {
+position: absolute;
+width: 135px;
+height: 40px;
+left: 1261px;
+top: 1388px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+text-align: right;
+
+color: #000000;
+background-color: yellow;
+}
+
+/* 02 */
+
+.e02 {
+position: absolute;
+width: 159px;
+height: 25px;
+left: 975px;
+top: 1433px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 44px;
+text-align: right;
+letter-spacing: -0.1em;
+
+color: #000000;
+}
+
+/* hoverstate */
+
+.hoverstate {
+  text-decoration: none;
+  position: absolute;
+  width: 190px;
+  height: 40px;
+  left: 1206px;
+  top: 1433px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: right;
+
+  color: #000000;
+}
+
+.hoverstate:hover {
+  text-decoration: none;
+  position: absolute;
+  width: 190px;
+  height: 40px;
+  left: 1206px;
+  top: 1433px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: right;
+
+  color: #000000;
+  background-color: yellow;
+}
+
+/* still-life */
+
+.still-life {
+  text-decoration: none;
+  position: absolute;
+  width: 133px;
+  height: 40px;
+  left: 1263px;
+  top: 1479px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: right;
+
+  color: #000000;
+}
+
+.still-life:hover {
+  text-decoration: none;
+  position: absolute;
+  width: 133px;
+  height: 40px;
+  left: 1263px;
+  top: 1479px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: right;
+
+  color: #000000;
+  background-color: yellow;
+}
+
+/* 03 */
+
+.e03 {
+position: absolute;
+width: 159px;
+height: 24px;
+left: 975px;
+top: 1479px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 44px;
+text-align: right;
+letter-spacing: -0.1em;
+
+color: #000000;
+}
+
+/* 04 */
+
+.e04 {
+position: absolute;
+width: 159px;
+height: 25px;
+left: 975px;
+top: 1524px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 44px;
+text-align: right;
+letter-spacing: -0.1em;
+
+color: #000000;
+}
+
+/* res. wiki */
+
+.res-wiki {
+  text-decoration: none;
+  position: absolute;
+  width: 143px;
+  height: 40px;
+  left: 1253px;
+  top: 1524px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: right;
+
+  color: #000000;
+}
+
+.res-wiki:hover {
+  text-decoration: none;
+  position: absolute;
+  width: 143px;
+  height: 40px;
+  left: 1253px;
+  top: 1524px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: right;
+
+  color: #000000;
+  background-color: yellow;
+}
+
+/* PROJECT */
+
+.project {
+position: absolute;
+width: 490px;
+height: 166px;
+left: 49px;
+top: 1666px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 100px;
+line-height: 121px;
+letter-spacing: -0.1em;
+
+color: #000000;
+}
+
+/* Rectangle 6 */
+
+.rec6 {
+position: absolute;
+width: 239px;
+height: 702px;
+left: 869px;
+top: 1690px;
+
+background: #000000;
+}
+
+/* Ellipse 3 */
+
+.ell3 {
+position: absolute;
+width: 540px;
+height: 541px;
+left: 869px;
+top: 1690px;
+border-radius: 50%;
+
+background: #000000;
+}
+
+/* Rectangle 7 */
+
+.rec7 {
+position: absolute;
+width: 85px;
+height: 30px;
+left: 1059px;
+top: 1690px;
+
+background: #000000;
+}
+
+/* Harmonic Collection */
+
+.harmonic {
+  text-decoration: none;
+  position: absolute;
+  width: 178px;
+  height: 74px;
+  left: 49px;
+  top: 2318px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  /* or 111% */
+
+  color: #000000;
+}
+
+.harmonic:hover {
+  text-decoration: none;
+  position: absolute;
+  width: 178px;
+  height: 74px;
+  left: 49px;
+  top: 2318px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  /* or 111% */
+
+  color: #000000;
+  background-color: yellow;
+}
+
+/* Parsons CD Interaction 2022 */
+
+.caption {
+position: absolute;
+width: 612px;
+height: 23px;
+left: 789px;
+top: 2537px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: right;
+letter-spacing: 0.5em;
+
+color: #000000;
+}
+
+
+/* Helen Chen */
+
+.author {
+position: absolute;
+width: 612px;
+height: 23px;
+left: 789px;
+top: 2520px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: right;
+letter-spacing: 0.1em;
+
+color: #000000;
+}
+
+
+/* Line 13 */
+
+.line {
+position: absolute;
+width: 1352px;
+height: 0px;
+left: 49px;
+top: 2500px;
+
+border: 0.5px solid #000000;
 }
