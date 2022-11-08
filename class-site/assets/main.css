@@ -1,20 +1,23 @@
 /* Sketch #2 */
 
 body {
+  overflow-x: hidden;
+}
+
+.container {
 position: relative;
 width: 1440px;
-height: 2600px;
+height: 2650px;
+left: -10px;
 
 font-family: 'Inter', sans-serif;
-
-overflow-x: hidden;
 }
 
 .cover {
   width: 50px;
   height: 50px;
   position: absolute;
-  left: 275px;
+  right: 925px;
   top: 455px;
   background-color: black;
 }
@@ -24,7 +27,7 @@ overflow-x: hidden;
   height: 40px;
   border-radius: 50%;
   position: absolute;
-  left: 280px;
+  right: 925px;
   top: 460px;
   background-color: white;
   animation: movingUpDown 5s infinite ease-in-out;
@@ -41,7 +44,7 @@ overflow-x: hidden;
     height: 40px;
     border-radius: 50%;
     position: absolute;
-    left: 280px;
+    right: 925px;
     top: 460px;
   }
   50% {
@@ -49,7 +52,7 @@ overflow-x: hidden;
     height: 40px;
     border-radius: 50%;
     position: absolute;
-    left: 280px;
+    right: 925px;
     top: 100px;
   }
   100% {
@@ -57,7 +60,7 @@ overflow-x: hidden;
     height: 40px;
     border-radius: 50%;
     position: absolute;
-    left: 280px;
+    right: 925px;
     top: 460px;
   }
 }
@@ -80,8 +83,9 @@ background: black;
 position: absolute;
 width: 1334px;
 height: 465px;
-left: 264px;
+right: -122px;
 top: 413px;
+text-align: right;
 
 font-family: 'Inter';
 font-style: normal;
@@ -109,39 +113,157 @@ background: #000000;
 /* Rectangle 3 */
 
 .rec3 {
-position: absolute;
-width: 540px;
-height: 211px;
-left: 35px;
-top: 846px;
+  position: absolute;
+  width: 540px;
+  height: 211px;
+  left: 380px;
+  top: 1000px;
 
-background: linear-gradient(0deg, #000000, #000000), #000000;
+  background: linear-gradient(0deg, #000000, #000000), #000000;
+  transform: rotate(75.81deg);
+  animation: transform 8s infinite ease-in-out;
+  animation-delay: 2s;
+}
+
+@keyframes transform {
+  0% {
+
+  }
+  30% {
+      position: absolute;
+      width: 540px;
+      height: 211px;
+      left: 35px;
+      top: 846px;
+
+      background: linear-gradient(0deg, #000000, #000000), #000000;
+      transform: rotate(0deg);}
+  70% {
+    position: absolute;
+    width: 540px;
+    height: 211px;
+    left: 35px;
+    top: 846px;
+
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+    transform: rotate(0deg);
+  }
+  85% {
+    position: absolute;
+    width: 540px;
+    height: 211px;
+    left: 380px;
+    top: 1000px;
+
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+    transform: rotate(75.81deg);
+  }
+  100% {
+  }
 }
 
 
 /* Rectangle 4 */
 
 .rec4 {
-position: absolute;
-width: 540px;
-height: 211px;
-left: 35px;
-top: 1093px;
+  position: absolute;
+  width: 540px;
+  height: 211px;
+  left: 130px;
+  top: 1200px;
 
-background: linear-gradient(0deg, #000000, #000000), #000000;
+  background: linear-gradient(0deg, #000000, #000000), #000000;
+  transform: rotate(-90deg);
+  animation: transform02 8s infinite ease-in-out;
+  animation-delay: 2s;
+}
+
+@keyframes transform02 {
+  0% {
+
+  }
+  30% {
+    position: absolute;
+    width: 540px;
+    height: 211px;
+    left: 35px;
+    top: 1093px;
+
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+    transform: rotate(0deg);
+  }
+  70% {
+    position: absolute;
+    width: 540px;
+    height: 211px;
+    left: 35px;
+    top: 1093px;
+
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+    transform: rotate(0deg);
+  }
+  85% {
+    position: absolute;
+    width: 540px;
+    height: 211px;
+    left: 130px;
+    top: 1200px;
+
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+    transform: rotate(-90deg);
+  }
+  100% {}
 }
 
 
 /* Rectangle 5 */
 
 .rec5 {
-position: absolute;
-width: 540px;
-height: 211px;
-left: 35px;
-top: 1338px;
+  position: absolute;
+  width: 540px;
+  height: 211px;
+  left: 412px;
+  top: 1390px;
 
-background: linear-gradient(0deg, #000000, #000000), #000000;
+  background: linear-gradient(0deg, #000000, #000000), #000000;
+  transform: rotate(-17.32deg);
+  animation: transform03 8s infinite ease-in-out;
+  animation-delay: 2s;
+}
+
+@keyframes transform03 {
+  0% {}
+  30% {
+    position: absolute;
+    width: 540px;
+    height: 211px;
+    left: 35px;
+    top: 1338px;
+
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+    transform: rotate(0deg);
+}
+  70% {
+    position: absolute;
+    width: 540px;
+    height: 211px;
+    left: 35px;
+    top: 1338px;
+
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+    transform: rotate(0deg);
+  }
+  85% {
+    position: absolute;
+    width: 540px;
+    height: 211px;
+    left: 412px;
+    top: 1390px;
+
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+    transform: rotate(-17.32deg);
+  }
+  100%{}
 }
 
 /* EXERCISES */
@@ -166,7 +288,7 @@ color: #000000;
 
 .exercon {
   position: absolute;
-  top: -10px;
+  top: -40px;
   left: 0px;
 }
 
@@ -406,6 +528,65 @@ color: #000000;
   background-color: yellow;
 }
 
+/* 05 */
+
+.e05 {
+position: absolute;
+width: 159px;
+height: 25px;
+left: 975px;
+top: 1569px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 44px;
+text-align: right;
+letter-spacing: -0.1em;
+
+color: #000000;
+}
+
+/* animation */
+
+.animation {
+  text-decoration: none;
+  position: absolute;
+  width: 170px;
+  height: 40px;
+  left: 1226px;
+  top: 1569px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: right;
+
+  color: #000000;
+}
+
+.animation:hover {
+  text-decoration: none;
+  position: absolute;
+  width: 170px;
+  height: 40px;
+  left: 1226px;
+  top: 1569px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: right;
+
+  color: #000000;
+  background-color: yellow;
+}
+
 /* PROJECT */
 
 .project {
@@ -422,7 +603,7 @@ font-size: 100px;
 line-height: 121px;
 letter-spacing: -0.1em;
 
-color: #000000;
+color: white;
 }
 
 /* Rectangle 6 */
@@ -434,7 +615,7 @@ height: 702px;
 left: 869px;
 top: 1690px;
 
-background: #000000;
+background: white;
 }
 
 /* Ellipse 3 */
@@ -447,7 +628,7 @@ left: 869px;
 top: 1690px;
 border-radius: 50%;
 
-background: #000000;
+background: white;
 }
 
 /* Rectangle 7 */
@@ -459,7 +640,7 @@ height: 30px;
 left: 1059px;
 top: 1690px;
 
-background: #000000;
+background: white;
 }
 
 /* Harmonic Collection */
@@ -479,7 +660,7 @@ background: #000000;
   line-height: 40px;
   /* or 111% */
 
-  color: #000000;
+  color: white;
 }
 
 .harmonic:hover {
@@ -553,4 +734,120 @@ left: 49px;
 top: 2500px;
 
 border: 0.5px solid #000000;
+}
+
+.projectdiv {
+  position: absolute;
+  top: 90px;
+  left: 0px;
+}
+
+.blackbackground {
+  position: absolute;
+  width: 1562px;
+  height: 892px;
+  left: -10px;
+  top: 1690px;
+
+  background-color: #000000;
+}
+
+@media screen and (min-width: 600px) {
+//For Tablets
+    .container {
+        width: 100;
+    }
+}
+
+@media screen and (min-width: 768px) {
+//For Laptops
+    .container {
+        width: 738px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+//For Large Laptops
+    .container {
+        width: 962px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1250px;
+    }
+
+    .blackintro {
+    position: absolute;
+    width: 2000px;
+    height: 772px;
+    left: -10px;
+    top: -10px;
+
+    background: black;
+    }
+
+    .blackbackground {
+      position: absolute;
+      width: 2000px;
+      height: 892px;
+      left: -10px;
+      top: 1690px;
+
+      background-color: #000000;
+    }
+
+}
+
+
+@media screen and (min-width: 1920px) {
+    .container {
+        width: 1890px;
+    }
+
+    .blackintro {
+    position: absolute;
+    width: 4000px;
+    height: 772px;
+    left: -10px;
+    top: -10px;
+
+    background: black;
+    }
+
+    .blackbackground {
+      position: absolute;
+      width: 4000px;
+      height: 892px;
+      left: -10px;
+      top: 1690px;
+
+      background-color: #000000;
+    }
+}
+@media screen and (min-width: 3840px) {
+    .container {
+        width: 3810px;
+    }
+
+    .blackintro {
+    position: absolute;
+    width: 10000px;
+    height: 772px;
+    left: -10px;
+    top: -10px;
+
+    background: black;
+    }
+
+    .blackbackground {
+      position: absolute;
+      width: 10000px;
+      height: 892px;
+      left: -10px;
+      top: 1690px;
+
+      background-color: #000000;
+    }
 }

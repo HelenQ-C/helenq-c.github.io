@@ -348,3 +348,56 @@ left: 700px;
   transform-origin: top center;
   transform: rotate(15deg);
 }
+
+.tag1-06 {
+-webkit-transform: rotate(1deg);
+transform: rotate(1deg);
+transition: all 0.7s ease;
+position: absolute;
+top: 790px;
+left: 1080px;
+}
+
+.tag1-06:hover {
+  -webkit-transform: rotate(-8deg);
+  transform-origin: top center;
+  transform: rotate(-8deg);
+  cursor: pointer;
+}
+
+.tag2-06 {
+  -webkit-transform: rotate(7deg);
+  transform: rotate(7deg);
+  transition: all 0.7s ease;
+  filter: none;
+  cursor: pointer;
+  position: absolute;
+  top: 790px;
+  left: 1040px;
+}
+
+.tag2-06:hover {
+  -webkit-transform: rotate(15deg);
+  transform-origin: top center;
+  transform: rotate(15deg);
+  cursor: pointer;
+  -webkit-filter: grayscale(100%) invert(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) invert(100%);
+}
+
+.tag3-06 {
+  -webkit-transform: rotate(-9deg);
+  transform-origin: top center;
+  transform: rotate(-9deg);
+  transition: all 0.7s ease;
+  position: absolute;
+  top: 790px;
+  left: 1050px;
+  cursor: pointer;
+}
+
+.tag3-06:hover {
+  -webkit-transform: rotate(4deg);
+  transform-origin: top center;
+  transform: rotate(4deg);
+}
