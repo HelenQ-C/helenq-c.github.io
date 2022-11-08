@@ -487,6 +487,164 @@ top: 67px;
   order:3;
 }
 
+/* panel03_background 1 */
+
+.background03 {
+position: absolute;
+width: 862px;
+height: 590px;
+left: 804px;
+top: 67px;
+}
+
+/* panel03_hana01 1 */
+
+.hanadiv {
+  position: absolute;
+  max-width: 862px;
+  max-height: 590px;
+  object-fit: cover;
+}
+
+.hanamove {
+  animation:  7s infinite linear;
+}
+
+@keyframes MoveDown {
+  0% {
+    position: absolute;
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(750px);
+  }
+}
+
+.hana01 {
+position: absolute;
+width: 37px;
+height: 37px;
+left: 922px;
+top: 160px;
+animation: spinhana 5s infinite linear;
+background-blend-mode: darken;
+}
+
+@keyframes spinhana {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* panel03_hana02 1 */
+
+.hana02 {
+position: absolute;
+width: 37px;
+height: 37.16px;
+left: 1497px;
+top: 249px;
+}
+
+
+/* panel03_hana03 1 */
+
+.hana03 {
+position: absolute;
+width: 37px;
+height: 37px;
+left: 1553px;
+top: 330px;
+}
+
+
+/* panel03_backhand 1 */
+
+.backhand_panel03 {
+position: absolute;
+width: 239px;
+height: 253px;
+left: 995px;
+top: 123px;
+animation: transbackhand03 10s infinite ease-in-out;
+}
+
+@keyframes transbackhand03 {
+  0% {
+
+  }
+  30% {
+    transform: rotate(30deg);
+    position: absolute;
+    left: 1070px;
+    top: 120px;
+  }
+
+  80% {
+    transform: rotate(-7deg);
+  }
+  100% {
+    transform: rotate(0deg);
+    position: absolute;
+    width: 239px;
+    height: 253px;
+    left: 995px;
+    top: 123px;
+  }
+}
+
+/* panel03_figure 1 */
+
+.figure03 {
+position: absolute;
+width: 324px;
+height: 484px;
+left: 1173px;
+top: 149px;
+animation: transfigure 10s infinite ease-in-out;
+}
+
+@keyframes transfigure {
+  0% {
+
+  }
+  30% {
+    transform: rotate(10deg);
+  }
+
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+/* panel03_square 1 */
+
+.square {
+position: absolute;
+width: 114px;
+height: 114px;
+left: 1447px;
+top: 96px;
+
+animation: spin 7s infinite ease-in-out;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);}
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* image-from-rawpixel-id-3320910-jpeg 1 */
 
 .img3 {
@@ -530,6 +688,7 @@ height: 591px;
 left: 2061px;
 top: 67px;
 }
+
 
 @media (max-width: 200px) {
 
