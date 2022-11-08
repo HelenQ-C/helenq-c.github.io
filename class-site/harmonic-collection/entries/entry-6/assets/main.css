@@ -548,6 +548,8 @@ width: 37px;
 height: 37.16px;
 left: 1497px;
 top: 249px;
+animation: spinhana 5s infinite linear;
+background-blend-mode: darken;
 }
 
 
@@ -559,6 +561,8 @@ width: 37px;
 height: 37px;
 left: 1553px;
 top: 330px;
+animation: spinhana 5s infinite linear;
+background-blend-mode: darken;
 }
 
 

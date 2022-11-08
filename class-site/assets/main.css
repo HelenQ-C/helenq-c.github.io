@@ -272,7 +272,7 @@ background: #000000;
 position: absolute;
 width: 489px;
 height: 166px;
-left: 907px;
+right: -125px;
 top: 821px;
 
 font-family: 'Inter';
@@ -289,7 +289,7 @@ color: #000000;
 .exercon {
   position: absolute;
   top: -40px;
-  left: 0px;
+  right: 0px;
 }
 
 
@@ -299,7 +299,7 @@ color: #000000;
 position: absolute;
 width: 159px;
 height: 24px;
-left: 975px;
+right: 125px;
 top: 1388px;
 
 font-family: 'Inter';
@@ -320,7 +320,7 @@ color: #000000;
   position: absolute;
   width: 135px;
   height: 24px;
-  left: 1261px;
+  right: -125px;
   top: 1388px;
 
   font-family: 'Inter';
@@ -337,7 +337,7 @@ color: #000000;
 position: absolute;
 width: 135px;
 height: 40px;
-left: 1261px;
+right: -125px;
 top: 1388px;
 
 font-family: 'Inter';
@@ -357,7 +357,7 @@ background-color: yellow;
 position: absolute;
 width: 159px;
 height: 25px;
-left: 975px;
+right: 125px;
 top: 1433px;
 
 font-family: 'Inter';
@@ -378,7 +378,7 @@ color: #000000;
   position: absolute;
   width: 190px;
   height: 40px;
-  left: 1206px;
+  right: -125px;
   top: 1433px;
 
   font-family: 'Inter';
@@ -396,7 +396,7 @@ color: #000000;
   position: absolute;
   width: 190px;
   height: 40px;
-  left: 1206px;
+  right: -125px;
   top: 1433px;
 
   font-family: 'Inter';
@@ -417,7 +417,7 @@ color: #000000;
   position: absolute;
   width: 133px;
   height: 40px;
-  left: 1263px;
+  right: -125px;
   top: 1479px;
 
   font-family: 'Inter';
@@ -435,7 +435,7 @@ color: #000000;
   position: absolute;
   width: 133px;
   height: 40px;
-  left: 1263px;
+  right: -125px;
   top: 1479px;
 
   font-family: 'Inter';
@@ -455,7 +455,7 @@ color: #000000;
 position: absolute;
 width: 159px;
 height: 24px;
-left: 975px;
+right: 125px;
 top: 1479px;
 
 font-family: 'Inter';
@@ -475,7 +475,7 @@ color: #000000;
 position: absolute;
 width: 159px;
 height: 25px;
-left: 975px;
+right: 125px;
 top: 1524px;
 
 font-family: 'Inter';
@@ -496,7 +496,7 @@ color: #000000;
   position: absolute;
   width: 143px;
   height: 40px;
-  left: 1253px;
+  right: -125px;
   top: 1524px;
 
   font-family: 'Inter';
@@ -514,7 +514,7 @@ color: #000000;
   position: absolute;
   width: 143px;
   height: 40px;
-  left: 1253px;
+  right: -125px;
   top: 1524px;
 
   font-family: 'Inter';
@@ -534,7 +534,7 @@ color: #000000;
 position: absolute;
 width: 159px;
 height: 25px;
-left: 975px;
+right: 125px;
 top: 1569px;
 
 font-family: 'Inter';
@@ -555,7 +555,7 @@ color: #000000;
   position: absolute;
   width: 170px;
   height: 40px;
-  left: 1226px;
+  right: -125px;
   top: 1569px;
 
   font-family: 'Inter';
@@ -573,7 +573,7 @@ color: #000000;
   position: absolute;
   width: 170px;
   height: 40px;
-  left: 1226px;
+  right: -125px;
   top: 1569px;
 
   font-family: 'Inter';
@@ -606,41 +606,169 @@ letter-spacing: -0.1em;
 color: white;
 }
 
+.p {
+  position: absolute;
+  right: -180px;
+  top: 35px;
+}
+
 /* Rectangle 6 */
 
 .rec6 {
-position: absolute;
-width: 239px;
-height: 702px;
-left: 869px;
-top: 1690px;
+  position: absolute;
+  width: 239px;
+  height: 702px;
+  right: 580px;
+  top: 1747.1px;
 
-background: white;
+  background: #FFFFFF;
+  transform: rotate(20deg);
+
+  animation: transform06 8s infinite ease-in-out;
+  animation-delay: 2s;
+
+}
+
+@keyframes transform06 {
+  0% {
+
+  }
+  30% {
+    position: absolute;
+    width: 239px;
+    height: 702px;
+    right: 345px;
+    top: 1745px;
+    background: white;
+    transform: rotate(0deg);
+  }
+  70% {
+    position: absolute;
+    width: 239px;
+    height: 702px;
+    right: 345px;
+    top: 1745px;
+    background: white;
+    transform: rotate(0deg);
+  }
+  85% {
+    position: absolute;
+    width: 239px;
+    height: 702px;
+    right: 580px;
+    top: 1747.1px;
+
+    background: #FFFFFF;
+    transform: rotate(20deg);
+
+  }
+  100% {}
 }
 
 /* Ellipse 3 */
 
 .ell3 {
-position: absolute;
-width: 540px;
-height: 541px;
-left: 869px;
-top: 1690px;
-border-radius: 50%;
+  position: absolute;
+  width: 540px;
+  height: 541px;
+  right: 44.12px;
+  top: 1927px;
+  border-radius: 50%;
 
-background: white;
+  background: #FFFFFF;
+  animation: transform07 8s infinite ease-in-out;
+  animation-delay: 2s;
+}
+
+@keyframes transform07 {
+  0% {
+
+  }
+  30% {
+    position: absolute;
+    width: 540px;
+    height: 541px;
+    right: 44px;
+    top: 1745px;
+    border-radius: 50%;
+
+    background: #FFFFFF;
+  }
+  70% {
+    position: absolute;
+    width: 540px;
+    height: 541px;
+    right: 44px;
+    top: 1745px;
+    border-radius: 50%;
+
+    background: #FFFFFF;
+  }
+  85% {
+    position: absolute;
+    width: 540px;
+    height: 541px;
+    right: 44.12px;
+    top: 1927px;
+    border-radius: 50%;
+
+    background: #FFFFFF;
+
+  }
+  100% {}
 }
 
 /* Rectangle 7 */
 
 .rec7 {
-position: absolute;
-width: 85px;
-height: 30px;
-left: 1059px;
-top: 1690px;
+  position: absolute;
+  width: 85px;
+  height: 30px;
+  right: 420px;
+  top: 1930px;
 
-background: white;
+  background: #FFFFFF;
+  transform: rotate(-30deg);
+  animation: transform08 8s infinite ease-in-out;
+  animation-delay: 2s;
+}
+
+@keyframes transform08 {
+  0% {
+
+  }
+  30% {
+    position: absolute;
+    width: 85px;
+    height: 30px;
+    right: 309px;
+    top: 1745px;
+
+    background: white;
+    transform: rotate(0deg);
+  }
+  70% {
+    position: absolute;
+    width: 85px;
+    height: 30px;
+    right: 309px;
+    top: 1745px;
+
+    background: white;
+    transform: rotate(0deg);
+  }
+  85% {
+    position: absolute;
+    width: 85px;
+    height: 30px;
+    right: 420px;
+    top: 1930px;
+
+    background: #FFFFFF;
+    transform: rotate(-30deg);
+
+  }
+  100% {}
 }
 
 /* Harmonic Collection */
