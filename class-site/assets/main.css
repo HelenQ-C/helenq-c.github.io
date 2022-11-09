@@ -27,7 +27,7 @@ font-family: 'Inter', sans-serif;
   height: 40px;
   border-radius: 50%;
   position: absolute;
-  right: 925px;
+  right: 931px;
   top: 460px;
   background-color: white;
   animation: movingUpDown 5s infinite ease-in-out;
@@ -44,7 +44,7 @@ font-family: 'Inter', sans-serif;
     height: 40px;
     border-radius: 50%;
     position: absolute;
-    right: 925px;
+    right: 931px;
     top: 460px;
   }
   50% {
@@ -52,7 +52,7 @@ font-family: 'Inter', sans-serif;
     height: 40px;
     border-radius: 50%;
     position: absolute;
-    right: 925px;
+    right: 931px;
     top: 100px;
   }
   100% {
@@ -60,7 +60,7 @@ font-family: 'Inter', sans-serif;
     height: 40px;
     border-radius: 50%;
     position: absolute;
-    right: 925px;
+    right: 931px;
     top: 460px;
   }
 }
