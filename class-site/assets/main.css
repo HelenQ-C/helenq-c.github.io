@@ -813,42 +813,42 @@ color: white;
 /* Parsons CD Interaction 2022 */
 
 .caption {
-position: absolute;
-width: 612px;
-height: 23px;
-left: 789px;
-top: 2537px;
+  position: absolute;
+  width: 612px;
+  height: 23px;
+  right: -125px;
+  top: 2621px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 13px;
-text-align: right;
-letter-spacing: 0.5em;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: right;
+  letter-spacing: 0.5em;
 
-color: #000000;
+  color: black;
 }
 
 
 /* Helen Chen */
 
 .author {
-position: absolute;
-width: 612px;
-height: 23px;
-left: 789px;
-top: 2520px;
+  position: absolute;
+  width: 612px;
+  height: 23px;
+  right: -125px;
+  top: 2604px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-text-align: right;
-letter-spacing: 0.1em;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  letter-spacing: 0.1em;
 
-color: #000000;
+  color: black;
 }
 
 
