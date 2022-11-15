@@ -553,7 +553,7 @@ color: #000000;
 .animation {
   text-decoration: none;
   position: absolute;
-  width: 170px;
+  width: 175px;
   height: 40px;
   right: -125px;
   top: 1569px;
@@ -571,10 +571,68 @@ color: #000000;
 .animation:hover {
   text-decoration: none;
   position: absolute;
-  width: 170px;
+  width: 175px;
   height: 40px;
   right: -125px;
   top: 1569px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: right;
+
+  color: #000000;
+  background-color: yellow;
+}
+
+
+.e06 {
+position: absolute;
+width: 159px;
+height: 25px;
+right: 125px;
+top: 1614px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 44px;
+text-align: right;
+letter-spacing: -0.1em;
+
+color: #000000;
+}
+
+/* animation */
+
+.iframe {
+  text-decoration: none;
+  position: absolute;
+  width: 115px;
+  height: 40px;
+  right: -125px;
+  top: 1614px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: right;
+
+  color: #000000;
+}
+
+.iframe:hover {
+  text-decoration: none;
+  position: absolute;
+  width: 115px;
+  height: 40px;
+  right: -125px;
+  top: 1614px;
 
   font-family: 'Inter';
   font-style: normal;
@@ -880,6 +938,7 @@ border: 0.5px solid #000000;
   background-color: #000000;
 }
 
+
 @media screen and (min-width: 600px) {
 //For Tablets
     .container {
@@ -887,10 +946,212 @@ border: 0.5px solid #000000;
     }
 }
 
-@media screen and (min-width: 768px) {
-//For Laptops
+@media screen and (max-width: 768px) {
     .container {
         width: 738px;
+    }
+
+    /* blackintro */
+
+    .blackintro {
+    position: absolute;
+    width: 1562px;
+    height: 720px;
+    left: -10px;
+    top: -10px;
+
+    background: black;
+    }
+
+    /* interaction: */
+
+    .interaction {
+    position: absolute;
+    width: 1334px;
+    height: 465px;
+    right: 20px;
+    top: 450px;
+    text-align: right;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 303px;
+    letter-spacing: -0.1em;
+
+    color: #FFFFFF;
+    }
+
+    .rec2 {
+      opacity: 0.0;
+    position: absolute;
+    width: 238px;
+    height: 700px;
+    left: 35px;
+    top: 849px;
+
+    background: #000000;
+    }
+
+
+    /* Rectangle 3 */
+
+    .rec3 {
+      opacity: 0.0;
+      position: absolute;
+      width: 540px;
+      height: 211px;
+      left: 380px;
+      top: 1000px;
+
+      background: linear-gradient(0deg, #000000, #000000), #000000;
+      transform: rotate(75.81deg);
+      animation: transform 8s infinite ease-in-out;
+      animation-delay: 2s;
+    }
+
+    @keyframes transform {
+      0% {
+
+      }
+      30% {
+          position: absolute;
+          width: 540px;
+          height: 211px;
+          left: 35px;
+          top: 846px;
+
+          background: linear-gradient(0deg, #000000, #000000), #000000;
+          transform: rotate(0deg);}
+      70% {
+        position: absolute;
+        width: 540px;
+        height: 211px;
+        left: 35px;
+        top: 846px;
+
+        background: linear-gradient(0deg, #000000, #000000), #000000;
+        transform: rotate(0deg);
+      }
+      85% {
+        position: absolute;
+        width: 540px;
+        height: 211px;
+        left: 380px;
+        top: 1000px;
+
+        background: linear-gradient(0deg, #000000, #000000), #000000;
+        transform: rotate(75.81deg);
+      }
+      100% {
+      }
+    }
+
+
+    /* Rectangle 4 */
+
+    .rec4 {
+      opacity: 0.0;
+      position: absolute;
+      width: 540px;
+      height: 211px;
+      left: 130px;
+      top: 1200px;
+
+      background: linear-gradient(0deg, #000000, #000000), #000000;
+      transform: rotate(-90deg);
+      animation: transform02 8s infinite ease-in-out;
+      animation-delay: 2s;
+    }
+
+    @keyframes transform02 {
+      0% {
+
+      }
+      30% {
+        position: absolute;
+        width: 540px;
+        height: 211px;
+        left: 35px;
+        top: 1093px;
+
+        background: linear-gradient(0deg, #000000, #000000), #000000;
+        transform: rotate(0deg);
+      }
+      70% {
+        position: absolute;
+        width: 540px;
+        height: 211px;
+        left: 35px;
+        top: 1093px;
+
+        background: linear-gradient(0deg, #000000, #000000), #000000;
+        transform: rotate(0deg);
+      }
+      85% {
+        position: absolute;
+        width: 540px;
+        height: 211px;
+        left: 130px;
+        top: 1200px;
+
+        background: linear-gradient(0deg, #000000, #000000), #000000;
+        transform: rotate(-90deg);
+      }
+      100% {}
+    }
+
+
+    /* Rectangle 5 */
+
+    .rec5 {
+      opacity: 0.0;
+      position: absolute;
+      width: 540px;
+      height: 211px;
+      left: 412px;
+      top: 1390px;
+
+      background: linear-gradient(0deg, #000000, #000000), #000000;
+      transform: rotate(-17.32deg);
+      animation: transform03 8s infinite ease-in-out;
+      animation-delay: 2s;
+    }
+
+    @keyframes transform03 {
+      0% {}
+      30% {
+        position: absolute;
+        width: 540px;
+        height: 211px;
+        left: 35px;
+        top: 1338px;
+
+        background: linear-gradient(0deg, #000000, #000000), #000000;
+        transform: rotate(0deg);
+    }
+      70% {
+        position: absolute;
+        width: 540px;
+        height: 211px;
+        left: 35px;
+        top: 1338px;
+
+        background: linear-gradient(0deg, #000000, #000000), #000000;
+        transform: rotate(0deg);
+      }
+      85% {
+        position: absolute;
+        width: 540px;
+        height: 211px;
+        left: 412px;
+        top: 1390px;
+
+        background: linear-gradient(0deg, #000000, #000000), #000000;
+        transform: rotate(-17.32deg);
+      }
+      100%{}
     }
 }
 
@@ -898,6 +1159,26 @@ border: 0.5px solid #000000;
 //For Large Laptops
     .container {
         width: 962px;
+    }
+
+    .blackintro {
+    position: absolute;
+    width: 1500px;
+    height: 772px;
+    left: -10px;
+    top: -10px;
+
+    background: black;
+    }
+
+    .blackbackground {
+      position: absolute;
+      width: 1500px;
+      height: 892px;
+      left: -10px;
+      top: 1690px;
+
+      background-color: #000000;
     }
 }
 

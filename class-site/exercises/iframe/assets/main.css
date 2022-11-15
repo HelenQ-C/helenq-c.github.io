@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+}
+
+.website01 {
+  margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.website02 {
+    margin: 0;
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.website03 {
+    margin: 0;
+    position: absolute;
+    top: 310%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}

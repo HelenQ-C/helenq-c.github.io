@@ -1,0 +1,359 @@
+/* Desktop - 1 */
+
+body {
+  background: #151513;
+  overflow: hidden;
+
+}
+
+.container {
+position: relative;
+width: 1440px;
+height: 1024px;
+}
+
+.row {
+}
+
+.item {
+}
+
+/* img01 1 */
+
+.img01 {
+position: absolute;
+width: 497px;
+height: 469px;
+left: 0px;
+top: 123px;
+}
+
+
+/* arrow02 1 */
+
+.arrow02 {
+position: absolute;
+width: 82px;
+height: 61px;
+left: 384px;
+top: 346px;
+animation: transarrow02 2s infinite linear;
+}
+
+@keyframes transarrow02 {
+  0% {
+
+  }
+  100% {
+    position: absolute;
+    left: 250px;
+    top: 460px;
+  }
+}
+
+
+/* arrow03 1 */
+
+.arrow03 {
+position: absolute;
+width: 77px;
+height: 50px;
+left: 393px;
+top: 176px;
+animation: transarrow03 2s infinite linear;
+}
+
+@keyframes transarrow03 {
+  0% {
+
+  }
+  100% {
+    position: absolute;
+    left: 100px;
+    top: 400px;
+  }
+}
+
+.arrow01 {
+  position: absolute;
+  width: 87px;
+  height: 34px;
+  left: 318px;
+  top: 141px;
+  animation: transarrow01 2s infinite linear;
+}
+
+@keyframes transarrow01 {
+  0% {
+  }
+  100% {
+    position: absolute;
+    left: 100px;
+    top: 230px;
+  }
+}
+
+/* imgbackground 1 */
+
+.imgback {
+position: absolute;
+width: 936px;
+height: 469px;
+left: 504px;
+top: 123px;
+
+background: url(imgbackground.jpg);
+}
+
+/* img03 1 */
+
+.img03 {
+position: absolute;
+width: 309px;
+height: 443px;
+left: 1081px;
+top: 148px;
+}
+
+/* img02 1 */
+
+.img02 {
+position: absolute;
+width: 310px;
+height: 274px;
+left: 520px;
+top: 137px;
+}
+
+/* flower03 1 */
+
+.flower03 {
+position: absolute;
+width: 9px;
+height: 11px;
+left: 638px;
+top: 335px;
+animation: rotate01 2s infinite linear;
+transform: rotate(0deg);
+}
+
+@keyframes rotate01 {
+  0% {}
+  33% {
+    transform: rotate(15deg);
+  }
+  66% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+/* flower02 1 */
+
+.flower02 {
+position: absolute;
+width: 10px;
+height: 11px;
+left: 618px;
+top: 305px;
+animation: rotate01 2s infinite linear;
+transform: rotate(0deg);
+}
+
+
+/* flower01 1 */
+.flower01 {
+position: absolute;
+width: 10px;
+height: 10px;
+left: 592px;
+top: 322px;
+animation: rotate01 2s infinite linear;
+transform: rotate(0deg);
+}
+
+
+/* grape03 1 */
+
+.grape03 {
+position: absolute;
+width: 8px;
+height: 16px;
+left: 629px;
+top: 218px;
+animation: rotate01 2s infinite linear;
+transform: rotate(0deg);
+}
+
+
+/* grape02 1 */
+
+.grape02 {
+position: absolute;
+width: 9px;
+height: 15px;
+left: 630px;
+top: 187px;
+animation: rotate01 2s infinite linear;
+transform: rotate(0deg);
+}
+
+
+/* grape01 1 */
+
+.grape01 {
+position: absolute;
+width: 8px;
+height: 18px;
+left: 693px;
+top: 207px;
+animation: rotate01 2s infinite linear;
+transform: rotate(0deg);
+}
+
+
+/* plant03 1 */
+
+.plant03 {
+position: absolute;
+width: 8px;
+height: 10px;
+left: 561px;
+top: 355px;
+animation: rotate01 2s infinite linear;
+transform: rotate(0deg);
+}
+
+
+/* plant02 1 */
+
+.plant02 {
+position: absolute;
+width: 9px;
+height: 11px;
+left: 560px;
+top: 313px;
+animation: rotate01 2s infinite linear;
+transform: rotate(0deg);
+}
+
+
+/* plant01 1 */
+
+.plant01 {
+position: absolute;
+width: 11px;
+height: 10px;
+left: 539px;
+top: 280px;
+animation: rotate01 2s infinite linear;
+transform: rotate(0deg);
+}
+
+/* window01 1 */
+
+.win01 {
+position: absolute;
+width: 49px;
+height: 43px;
+left: 1211px;
+top: 294px;
+animation: wintrans01 5s infinite ease-in-out;
+}
+
+@keyframes wintrans01 {
+  0% {
+    width: 49px;
+    height: 43px;
+  }
+  100% {
+  width: 49px;
+  height: 0px;
+  top: 338px;
+}
+}
+
+/* window02 1 */
+
+.win02 {
+position: absolute;
+width: 44px;
+height: 43px;
+left: 1323px;
+top: 294px;
+
+animation: wintrans02 5s infinite ease-in-out;
+}
+
+@keyframes wintrans02 {
+  0% {
+    width: 44px;
+    height: 43px;
+  }
+  100% {
+  width: 44px;
+  height: 0px;
+  top: 338px;
+}
+}
+
+/* bird02 1 */
+
+.bird {
+position: absolute;
+width: 97px;
+height: 81px;
+left: 17px;
+top: 27px;
+animation: rotatebird 3s infinite ease-in-out;
+}
+
+@keyframes rotatebird {
+  0% {
+  }
+  33% {
+    transform: rotate(5deg);
+  }
+  66% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 768px) {
+  body {
+    background: #151513;
+    overflow-y: hidden;
+    overflow-x: visible;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 480px) {
+  body {
+    background: #151513;
+    overflow-y: visible;
+    overflow-x: hidden;
+  }
+
+  .container {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  left:140px;
+  top:750px;
+  align-content: center;
+  }
+
+  .row {
+  transform: rotate(90deg);
+  }
+  }

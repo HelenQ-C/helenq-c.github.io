@@ -401,3 +401,56 @@ left: 1080px;
   transform-origin: top center;
   transform: rotate(4deg);
 }
+
+.tag1-07 {
+-webkit-transform: rotate(4deg);
+transform: rotate(4deg);
+transition: all 0.7s ease;
+position: absolute;
+top: 1260px;
+left: 260px;
+}
+
+.tag1-07:hover {
+  -webkit-transform: rotate(15deg);
+  transform-origin: top center;
+  transform: rotate(15deg);
+  cursor: pointer;
+}
+
+.tag2-07 {
+  -webkit-transform: rotate(-4deg);
+  transform: rotate(-4deg);
+  transition: all 0.7s ease;
+  filter: none;
+  cursor: pointer;
+  position: absolute;
+  top: 1260px;
+  left: 260px;
+}
+
+.tag2-07:hover {
+  -webkit-transform: rotate(-20deg);
+  transform-origin: top center;
+  transform: rotate(-20deg);
+  cursor: pointer;
+  -webkit-filter: grayscale(100%) invert(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) invert(100%);
+}
+
+.tag3-07 {
+  -webkit-transform: rotate(-5deg);
+  transform-origin: top center;
+  transform: rotate(-5deg);
+  transition: all 0.7s ease;
+  position: absolute;
+  top: 1235px;
+  left: 360px;
+  cursor: pointer;
+}
+
+.tag3-07:hover {
+  -webkit-transform: rotate(-10deg);
+  transform-origin: top center;
+  transform: rotate(-10deg);
+}

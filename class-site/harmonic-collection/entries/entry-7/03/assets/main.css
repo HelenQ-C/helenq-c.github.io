@@ -1,0 +1,33 @@
+body {
+  background: #151513;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  top:-10px;
+  left:-10px;
+}
+
+/* img09 1 */
+
+.img09 {
+position: absolute;
+width: 569px;
+height: 681px;
+left: 0px;
+top: 20px;
+}
+
+
+/* img10 1 */
+
+.img10 {
+position: absolute;
+width: 874px;
+height: 675px;
+left: 566px;
+top: 20px;
+}

@@ -1,0 +1,43 @@
+body {
+  background: #151513;
+}
+
+.container {
+position: relative;
+width: 2223px;
+height: 1000px;
+top: -10px;
+}
+
+
+/* img06 1 */
+
+.img06 {
+position: absolute;
+width: 680px;
+height: 480px;
+left: -82px;
+top: 0px;
+}
+
+
+/* img07 1 */
+
+.img07 {
+position: absolute;
+width: 715px;
+height: 544px;
+left: -10px;
+top: 480px;
+}
+
+
+/* img08 1 */
+
+.img08 {
+position: absolute;
+width: 1667px;
+height: 1024px;
+left: 598px;
+top: 0px;
+}
