@@ -1,0 +1,156 @@
+body {
+  background: #3E5BAC;
+  overflow-y: hidden;
+}
+
+/* Wireframe - 1 */
+
+.container {
+  position: relative;
+  width: 1440px;
+  height: 800px;
+  top: -7px;
+  left: -7px;
+}
+
+
+/* back01 1 */
+
+.back01 {
+position: absolute;
+width: 643px;
+height: 800px;
+left: 797px;
+top: 0px;
+}
+
+
+/* back02 1 */
+
+.back02 {
+position: absolute;
+width: 241px;
+height: 384px;
+left: 1176px;
+top: 18px;
+}
+
+
+/* back03 1 */
+
+.back03 {
+position: absolute;
+width: 783px;
+height: 659px;
+left: 73px;
+top: 0px;
+}
+
+
+/* back04 1 */
+
+.back04 {
+position: absolute;
+width: 475px;
+height: 352px;
+left: 618px;
+top: 131px;
+}
+
+
+/* front01 1 */
+
+.front01 {
+position: absolute;
+width: 97px;
+height: 105px;
+left: 149px;
+top: 149px;
+}
+
+
+/* front02 1 */
+
+.front02 {
+position: absolute;
+width: 118px;
+height: 117px;
+left: 1034px;
+top: 329px;
+}
+
+
+/* front03 1 */
+
+.front03 {
+position: absolute;
+width: 187px;
+height: 111px;
+left: 153px;
+top: 618px;
+}
+
+
+/* text01 1 */
+
+.text01 {
+position: absolute;
+width: 366px;
+height: 76px;
+left: 0px;
+top: 483px;
+}
+
+
+/* text02 1 */
+
+.text02 {
+position: absolute;
+width: 219px;
+height: 65px;
+left: 856px;
+top: 99px;
+}
+
+/* text03 1 */
+
+.text03 {
+position: absolute;
+width: 745px;
+height: 32px;
+left: 221px;
+top: 0px;
+}
+
+
+/* text04 1 */
+
+.text04 {
+position: absolute;
+width: 393px;
+height: 51px;
+left: 837px;
+top: 0px;
+}
+
+
+/* stage 1 */
+
+.stage {
+position: absolute;
+width: 1440px;
+height: 253px;
+left: 0px;
+top: 547px;
+}
+
+
+/* model 1 */
+
+.model {
+position: absolute;
+width: 176px;
+height: 442px;
+left: 632px;
+top: 232px;
+}
